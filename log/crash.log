@@ -1979,4 +1979,301 @@ GET /chat [chipchat] 500 40ms2013-10-07 21:15:06 =ERROR REPORT====
 GET /chat [chipchat] 500 38ms2013-10-07 21:20:44 =ERROR REPORT====
 {{'Elixir-CompileError','__exception__',<<"/Users/rsslldnphy/Code/chipchat/src/controller/chat_controller.ex">>,9,<<"function cat/1 undefined">>},[]}2013-10-07 21:20:44 =ERROR REPORT====
 GET /chat [chipchat] 500 43ms2013-10-07 21:21:04 =ERROR REPORT====
-GET /chat/felix [chipchat] 404 65ms
+GET /chat/felix [chipchat] 404 65ms2013-10-07 21:48:12 =ERROR REPORT====
+{{'Elixir-SyntaxError','__exception__',<<"/Users/rsslldnphy/Code/chipchat/src/controller/chat_controller.ex">>,17,<<"syntax error before: newline">>},[{erl_parse,yecctoken_end_location,1,[{file,"/private/tmp/default-sLcs/otp-OTP_R16B02/bootstrap/lib/parsetools/include/yeccpre.hrl"},{line,128}]},{erl_parse,yeccpars1,7,[{file,"/private/tmp/default-sLcs/otp-OTP_R16B02/bootstrap/lib/parsetools/include/yeccpre.hrl"},{line,113}]},{erl_parse,yeccpars0,5,[{file,"/private/tmp/default-sLcs/otp-OTP_R16B02/bootstrap/lib/parsetools/include/yeccpre.hrl"},{line,56}]},{boss_compiler,parse_tokens,5,[{file,"src/boss_compiler.erl"},{line,120}]},{boss_compiler,parse_text,4,[{file,"src/boss_compiler.erl"},{line,97}]},{boss_compiler,compile,2,[{file,"src/boss_compiler.erl"},{line,11}]},{boss_load,compile_and_accumulate_errors,5,[{file,"src/boss/boss_load.erl"},{line,146}]},{boss_load,load_dir,4,[{file,"src/boss/boss_load.erl"},{line,121}]}]}2013-10-07 21:48:12 =ERROR REPORT====
+GET /chat/index/felix [chipchat] 500 26ms2013-10-07 21:50:08 =ERROR REPORT====
+{{'Elixir-CompileError','__exception__',<<"/Users/rsslldnphy/Code/chipchat/src/controller/chat_controller.ex">>,18,<<"function output/0 undefined">>},[{boss_mq,'__info__',[macros],[]},{elixir_dispatch,get_optional_macros,1,[{file,"src/elixir_dispatch.erl"},{line,249}]},{elixir_dispatch,expand_require,8,[{file,"src/elixir_dispatch.erl"},{line,146}]},{elixir_dispatch,dispatch_require,6,[{file,"src/elixir_dispatch.erl"},{line,94}]},{lists,mapfoldl,3,[{file,"lists.erl"},{line,1339}]},{elixir_translator,translate_each,2,[{file,"src/elixir_translator.erl"},{line,61}]},{lists,mapfoldl,3,[{file,"lists.erl"},{line,1339}]},{elixir_clauses,assigns_block,6,[{file,"src/elixir_clauses.erl"},{line,44}]}]}2013-10-07 21:50:08 =ERROR REPORT====
+GET /chat/index/felix [chipchat] 500 58ms2013-10-07 21:50:17 =ERROR REPORT====
+{{'Elixir-CompileError','__exception__',<<"/Users/rsslldnphy/Code/chipchat/src/controller/chat_controller.ex">>,22,<<"function id/0 undefined">>},[]}2013-10-07 21:50:17 =ERROR REPORT====
+GET /chat/index/felix [chipchat] 500 57ms2013-10-07 21:50:27 =ERROR REPORT====
+{{'Elixir-CompileError','__exception__',<<"/Users/rsslldnphy/Code/chipchat/src/controller/chat_controller.ex">>,22,<<"function localtime/0 undefined">>},[]}2013-10-07 21:50:27 =ERROR REPORT====
+GET /chat/index/felix [chipchat] 500 55ms2013-10-07 21:50:34 =ERROR REPORT====
+{{'Elixir-CompileError','__exception__',<<"/Users/rsslldnphy/Code/chipchat/src/controller/chat_controller.ex">>,26,<<"function req/0 undefined">>},[]}2013-10-07 21:50:34 =ERROR REPORT====
+GET /chat/index/felix [chipchat] 500 101ms2013-10-07 21:50:38 =ERROR REPORT====
+{{'Elixir-CompileError','__exception__',<<"/Users/rsslldnphy/Code/chipchat/src/controller/chat_controller.ex">>,26,<<"function req/0 undefined">>},[]}2013-10-07 21:50:38 =ERROR REPORT====
+GET /chat/index/felix [chipchat] 500 57ms2013-10-07 21:50:40 =ERROR REPORT====
+{{'Elixir-CompileError','__exception__',<<"/Users/rsslldnphy/Code/chipchat/src/controller/chat_controller.ex">>,26,<<"function req/0 undefined">>},[]}2013-10-07 21:50:40 =ERROR REPORT====
+GET /chat/index/felix [chipchat] 500 58ms2013-10-07 21:51:16 =ERROR REPORT====
+{{'Elixir-CompileError','__exception__',<<"/Users/rsslldnphy/Code/chipchat/src/controller/chat_controller.ex">>,22,<<"function body/2 undefined">>},[]}2013-10-07 21:51:16 =ERROR REPORT====
+GET /chat/index/felix [chipchat] 500 66ms2013-10-07 21:52:22 =CRASH REPORT====
+  crasher:
+    initial call: mochiweb_acceptor:init/3
+    pid: <0.254.0>
+    registered_name: []
+    exception error: {function_clause,[{boss_web_controller,process_result,[{boss_app_info,chipchat,[],"/static","/doc",all,[{chipchat_01_news,[]}],<0.155.0>,<0.156.0>,<0.158.0>,<0.159.0>,[],[],["Elixir-Chipchat-ChatController"]},{simple_bridge_request_wrapper,mochiweb_request_bridge,{mochiweb_request,[#Port<0.24458>,'GET',"/chat/",{1,1},{7,{"host",{'Host',"localhost:8001"},{"connection",{'Connection',"keep-alive"},{"accept",{'Accept',"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"},nil,{"accept-encoding",{'Accept-Encoding',"gzip,deflate,sdch"},nil,{"accept-language",{'Accept-Language',"en-US,en;q=0.8"},nil,nil}}},{"cookie",{'Cookie',"_be-clear-on-cancer_session=WE04QVlmNzN5TkVReEZ0UHNSSXkvTXU4T2U2L0dXUTdHYi9OeGlya0hkK1luYmtTTjRYV3ppaHR0anR3MHhoSUM1UjlsRnBvelI0MjN0SXZxMXBldzBrTDZDRVBsVTUxV0Y5Yi90clZFbnNha2JyN0s1SUpIaVBpR0Y1RElWekFxcG1wTDg4Q0lXbS9Ha0V5UzA2U09peVVyUHVGQUlITzREVlU1TnREdXFpekt1Q1MrenhpNTJMM1E4bVRnTVFQLS1SelFuVGdnSzdtVC9xSThHYUlkVWVnPT0%3D--0beb6e1f3ff1c0972b27d4cfb72095f5f1fb4c5b; _boss_session=5e75be290174e35714c332a4b581509e10218362"},nil,nil}},{"user-agent",{'User-Agent',"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.69 Safari/537.36"},nil,nil}}}]},false,[],[],none},{render,<<"Hello, world!">>,[]}],[{file,"src/boss/boss_web_controller.erl"},{line,621}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]},{boss_web_controller,build_dynamic_response,4,[{file,"src/boss/boss_web_controller.erl"},{line,462}]},{mochiweb_http,headers,5,[{file,"src/mochiweb_http.erl"},{line,94}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [mochiweb_http,boss_web,boss_sup,<0.64.0>]
+    messages: []
+    links: [<0.138.0>,#Port<0.24458>]
+    dictionary: [{random_seed,{20816,28984,29557}},{boss_environment,development},{mochiweb_request_cookie,[{"_be-clear-on-cancer_session","WE04QVlmNzN5TkVReEZ0UHNSSXkvTXU4T2U2L0dXUTdHYi9OeGlya0hkK1luYmtTTjRYV3ppaHR0anR3MHhoSUM1UjlsRnBvelI0MjN0SXZxMXBldzBrTDZDRVBsVTUxV0Y5Yi90clZFbnNha2JyN0s1SUpIaVBpR0Y1RElWekFxcG1wTDg4Q0lXbS9Ha0V5UzA2U09peVVyUHVGQUlITzREVlU1TnREdXFpekt1Q1MrenhpNTJMM1E4bVRnTVFQLS1SelFuVGdnSzdtVC9xSThHYUlkVWVnPT0%3D--0beb6e1f3ff1c0972b27d4cfb72095f5f1fb4c5b"},{"_boss_session","5e75be290174e35714c332a4b581509e10218362"}]},{elixir_compiled,undefined}]
+    trap_exit: false
+    status: running
+    heap_size: 10958
+    stack_size: 27
+    reductions: 3975833
+  neighbours:
+2013-10-07 21:52:22 =CRASH REPORT====
+  crasher:
+    initial call: mochiweb_acceptor:init/3
+    pid: <0.350.0>
+    registered_name: []
+    exception error: {function_clause,[{boss_web_controller,process_result,[{boss_app_info,chipchat,[],"/static","/doc",all,[{chipchat_01_news,[]}],<0.155.0>,<0.156.0>,<0.158.0>,<0.159.0>,[],[],["Elixir-Chipchat-ChatController"]},{simple_bridge_request_wrapper,mochiweb_request_bridge,{mochiweb_request,[#Port<0.39144>,'GET',"/chat/",{1,1},{7,{"host",{'Host',"localhost:8001"},{"connection",{'Connection',"keep-alive"},{"accept",{'Accept',"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"},nil,{"accept-encoding",{'Accept-Encoding',"gzip,deflate,sdch"},nil,{"accept-language",{'Accept-Language',"en-US,en;q=0.8"},nil,nil}}},{"cookie",{'Cookie',"_be-clear-on-cancer_session=WE04QVlmNzN5TkVReEZ0UHNSSXkvTXU4T2U2L0dXUTdHYi9OeGlya0hkK1luYmtTTjRYV3ppaHR0anR3MHhoSUM1UjlsRnBvelI0MjN0SXZxMXBldzBrTDZDRVBsVTUxV0Y5Yi90clZFbnNha2JyN0s1SUpIaVBpR0Y1RElWekFxcG1wTDg4Q0lXbS9Ha0V5UzA2U09peVVyUHVGQUlITzREVlU1TnREdXFpekt1Q1MrenhpNTJMM1E4bVRnTVFQLS1SelFuVGdnSzdtVC9xSThHYUlkVWVnPT0%3D--0beb6e1f3ff1c0972b27d4cfb72095f5f1fb4c5b; _boss_session=5e75be290174e35714c332a4b581509e10218362"},nil,nil}},{"user-agent",{'User-Agent',"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.69 Safari/537.36"},nil,nil}}}]},false,[],[],none},{render,<<"Hello, world!">>,[]}],[{file,"src/boss/boss_web_controller.erl"},{line,621}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]},{boss_web_controller,build_dynamic_response,4,[{file,"src/boss/boss_web_controller.erl"},{line,462}]},{mochiweb_http,headers,5,[{file,"src/mochiweb_http.erl"},{line,94}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [mochiweb_http,boss_web,boss_sup,<0.64.0>]
+    messages: []
+    links: [<0.138.0>,#Port<0.39144>]
+    dictionary: [{random_seed,{29862,1581,5177}},{boss_environment,development},{mochiweb_request_cookie,[{"_be-clear-on-cancer_session","WE04QVlmNzN5TkVReEZ0UHNSSXkvTXU4T2U2L0dXUTdHYi9OeGlya0hkK1luYmtTTjRYV3ppaHR0anR3MHhoSUM1UjlsRnBvelI0MjN0SXZxMXBldzBrTDZDRVBsVTUxV0Y5Yi90clZFbnNha2JyN0s1SUpIaVBpR0Y1RElWekFxcG1wTDg4Q0lXbS9Ha0V5UzA2U09peVVyUHVGQUlITzREVlU1TnREdXFpekt1Q1MrenhpNTJMM1E4bVRnTVFQLS1SelFuVGdnSzdtVC9xSThHYUlkVWVnPT0%3D--0beb6e1f3ff1c0972b27d4cfb72095f5f1fb4c5b"},{"_boss_session","5e75be290174e35714c332a4b581509e10218362"}]},{elixir_compiled,undefined}]
+    trap_exit: false
+    status: running
+    heap_size: 10958
+    stack_size: 27
+    reductions: 436734
+  neighbours:
+2013-10-07 21:52:23 =CRASH REPORT====
+  crasher:
+    initial call: mochiweb_acceptor:init/3
+    pid: <0.272.0>
+    registered_name: []
+    exception error: {function_clause,[{boss_web_controller,process_result,[{boss_app_info,chipchat,[],"/static","/doc",all,[{chipchat_01_news,[]}],<0.155.0>,<0.156.0>,<0.158.0>,<0.159.0>,[],[],["Elixir-Chipchat-ChatController"]},{simple_bridge_request_wrapper,mochiweb_request_bridge,{mochiweb_request,[#Port<0.39469>,'GET',"/chat",{1,1},{7,{"host",{'Host',"localhost:8001"},{"connection",{'Connection',"keep-alive"},{"accept",{'Accept',"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"},nil,{"accept-encoding",{'Accept-Encoding',"gzip,deflate,sdch"},nil,{"accept-language",{'Accept-Language',"en-US,en;q=0.8"},nil,nil}}},{"cookie",{'Cookie',"_be-clear-on-cancer_session=WE04QVlmNzN5TkVReEZ0UHNSSXkvTXU4T2U2L0dXUTdHYi9OeGlya0hkK1luYmtTTjRYV3ppaHR0anR3MHhoSUM1UjlsRnBvelI0MjN0SXZxMXBldzBrTDZDRVBsVTUxV0Y5Yi90clZFbnNha2JyN0s1SUpIaVBpR0Y1RElWekFxcG1wTDg4Q0lXbS9Ha0V5UzA2U09peVVyUHVGQUlITzREVlU1TnREdXFpekt1Q1MrenhpNTJMM1E4bVRnTVFQLS1SelFuVGdnSzdtVC9xSThHYUlkVWVnPT0%3D--0beb6e1f3ff1c0972b27d4cfb72095f5f1fb4c5b; _boss_session=5e75be290174e35714c332a4b581509e10218362"},nil,nil}},{"user-agent",{'User-Agent',"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.69 Safari/537.36"},nil,nil}}}]},false,[],[],none},{render,<<"Hello, world!">>,[]}],[{file,"src/boss/boss_web_controller.erl"},{line,621}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]},{boss_web_controller,build_dynamic_response,4,[{file,"src/boss/boss_web_controller.erl"},{line,462}]},{mochiweb_http,headers,5,[{file,"src/mochiweb_http.erl"},{line,94}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [mochiweb_http,boss_web,boss_sup,<0.64.0>]
+    messages: []
+    links: [<0.138.0>,#Port<0.39469>]
+    dictionary: [{random_seed,{29862,1581,5177}},{boss_environment,development},{mochiweb_request_cookie,[{"_be-clear-on-cancer_session","WE04QVlmNzN5TkVReEZ0UHNSSXkvTXU4T2U2L0dXUTdHYi9OeGlya0hkK1luYmtTTjRYV3ppaHR0anR3MHhoSUM1UjlsRnBvelI0MjN0SXZxMXBldzBrTDZDRVBsVTUxV0Y5Yi90clZFbnNha2JyN0s1SUpIaVBpR0Y1RElWekFxcG1wTDg4Q0lXbS9Ha0V5UzA2U09peVVyUHVGQUlITzREVlU1TnREdXFpekt1Q1MrenhpNTJMM1E4bVRnTVFQLS1SelFuVGdnSzdtVC9xSThHYUlkVWVnPT0%3D--0beb6e1f3ff1c0972b27d4cfb72095f5f1fb4c5b"},{"_boss_session","5e75be290174e35714c332a4b581509e10218362"}]},{elixir_compiled,undefined}]
+    trap_exit: false
+    status: running
+    heap_size: 10958
+    stack_size: 27
+    reductions: 464261
+  neighbours:
+2013-10-07 21:52:24 =CRASH REPORT====
+  crasher:
+    initial call: mochiweb_acceptor:init/3
+    pid: <0.143.0>
+    registered_name: []
+    exception error: {function_clause,[{boss_web_controller,process_result,[{boss_app_info,chipchat,[],"/static","/doc",all,[{chipchat_01_news,[]}],<0.155.0>,<0.156.0>,<0.158.0>,<0.159.0>,[],[],["Elixir-Chipchat-ChatController"]},{simple_bridge_request_wrapper,mochiweb_request_bridge,{mochiweb_request,[#Port<0.39470>,'GET',"/chat",{1,1},{7,{"host",{'Host',"localhost:8001"},{"connection",{'Connection',"keep-alive"},{"accept",{'Accept',"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"},nil,{"accept-encoding",{'Accept-Encoding',"gzip,deflate,sdch"},nil,{"accept-language",{'Accept-Language',"en-US,en;q=0.8"},nil,nil}}},{"cookie",{'Cookie',"_be-clear-on-cancer_session=WE04QVlmNzN5TkVReEZ0UHNSSXkvTXU4T2U2L0dXUTdHYi9OeGlya0hkK1luYmtTTjRYV3ppaHR0anR3MHhoSUM1UjlsRnBvelI0MjN0SXZxMXBldzBrTDZDRVBsVTUxV0Y5Yi90clZFbnNha2JyN0s1SUpIaVBpR0Y1RElWekFxcG1wTDg4Q0lXbS9Ha0V5UzA2U09peVVyUHVGQUlITzREVlU1TnREdXFpekt1Q1MrenhpNTJMM1E4bVRnTVFQLS1SelFuVGdnSzdtVC9xSThHYUlkVWVnPT0%3D--0beb6e1f3ff1c0972b27d4cfb72095f5f1fb4c5b; _boss_session=5e75be290174e35714c332a4b581509e10218362"},nil,nil}},{"user-agent",{'User-Agent',"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.69 Safari/537.36"},nil,nil}}}]},false,[],[],none},{render,<<"Hello, world!">>,[]}],[{file,"src/boss/boss_web_controller.erl"},{line,621}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]},{boss_web_controller,build_dynamic_response,4,[{file,"src/boss/boss_web_controller.erl"},{line,462}]},{mochiweb_http,headers,5,[{file,"src/mochiweb_http.erl"},{line,94}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [mochiweb_http,boss_web,boss_sup,<0.64.0>]
+    messages: []
+    links: [<0.138.0>,#Port<0.39470>]
+    dictionary: [{random_seed,{29862,1581,5177}},{boss_environment,development},{mochiweb_request_cookie,[{"_be-clear-on-cancer_session","WE04QVlmNzN5TkVReEZ0UHNSSXkvTXU4T2U2L0dXUTdHYi9OeGlya0hkK1luYmtTTjRYV3ppaHR0anR3MHhoSUM1UjlsRnBvelI0MjN0SXZxMXBldzBrTDZDRVBsVTUxV0Y5Yi90clZFbnNha2JyN0s1SUpIaVBpR0Y1RElWekFxcG1wTDg4Q0lXbS9Ha0V5UzA2U09peVVyUHVGQUlITzREVlU1TnREdXFpekt1Q1MrenhpNTJMM1E4bVRnTVFQLS1SelFuVGdnSzdtVC9xSThHYUlkVWVnPT0%3D--0beb6e1f3ff1c0972b27d4cfb72095f5f1fb4c5b"},{"_boss_session","5e75be290174e35714c332a4b581509e10218362"}]},{elixir_compiled,undefined}]
+    trap_exit: false
+    status: running
+    heap_size: 10958
+    stack_size: 27
+    reductions: 477710
+  neighbours:
+2013-10-07 21:56:15 =ERROR REPORT====
+GET /chat [chipchat] 404 84ms2013-10-07 21:56:24 =ERROR REPORT====
+GET /chat [chipchat] 404 86ms2013-10-07 22:03:02 =ERROR REPORT====
+{function_clause,[{'Elixir-Chipchat-ChatController',post,[{simple_bridge_request_wrapper,mochiweb_request_bridge,{mochiweb_request,[#Port<0.44052>,'POST',"/chat/post",{1,1},{11,{"host",{'Host',"localhost:8001"},{"connection",{'Connection',"keep-alive"},{"accept",{'Accept',"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"},nil,{"accept-encoding",{'Accept-Encoding',"gzip,deflate,sdch"},nil,{"accept-language",{'Accept-Language',"en-US,en;q=0.8"},nil,nil}}},{"content-length",{'Content-Length',"30"},nil,{"content-type",{'Content-Type',"application/x-www-form-urlencoded"},nil,{"cookie",{'Cookie',"_be-clear-on-cancer_session=WE04QVlmNzN5TkVReEZ0UHNSSXkvTXU4T2U2L0dXUTdHYi9OeGlya0hkK1luYmtTTjRYV3ppaHR0anR3MHhoSUM1UjlsRnBvelI0MjN0SXZxMXBldzBrTDZDRVBsVTUxV0Y5Yi90clZFbnNha2JyN0s1SUpIaVBpR0Y1RElWekFxcG1wTDg4Q0lXbS9Ha0V5UzA2U09peVVyUHVGQUlITzREVlU1TnREdXFpekt1Q1MrenhpNTJMM1E4bVRnTVFQLS1SelFuVGdnSzdtVC9xSThHYUlkVWVnPT0%3D--0beb6e1f3ff1c0972b27d4cfb72095f5f1fb4c5b; _boss_session=5e75be290174e35714c332a4b581509e10218362"},nil,nil}}}},{"origin",{"Origin","http://localhost:8001"},nil,{"user-agent",{'User-Agent',"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.69 Safari/537.36"},{"referer",{'Referer',"http://localhost:8001/chat"},nil,nil},nil}}}}]},false,[],[],none},"5e75be290174e35714c332a4b581509e10218362",'POST',[]],[{file,"/Users/rsslldnphy/Code/chipchat/src/controller/chat_controller.ex"},{line,16}]},{boss_web_controller,execute_action,5,[{file,"src/boss/boss_web_controller.erl"},{line,836}]},{boss_web_controller,process_dynamic_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,543}]},{boss_web_controller,process_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,532}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]},{boss_web_controller,build_dynamic_response,4,[{file,"src/boss/boss_web_controller.erl"},{line,462}]},{mochiweb_http,headers,5,[{file,"src/mochiweb_http.erl"},{line,94}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}2013-10-07 22:03:02 =ERROR REPORT====
+POST /chat/post [chipchat] 500 71ms2013-10-07 22:04:09 =ERROR REPORT====
+{undef,[{message,new,[id,undefined,undefined,{{2013,10,7},{22,4,9}}],[]},{'Elixir-Chipchat-ChatController',post,4,[{file,"/Users/rsslldnphy/Code/chipchat/src/controller/chat_controller.ex"},{line,17}]},{boss_web_controller,execute_action,5,[{file,"src/boss/boss_web_controller.erl"},{line,836}]},{boss_web_controller,process_dynamic_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,543}]},{boss_web_controller,process_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,532}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]},{boss_web_controller,build_dynamic_response,4,[{file,"src/boss/boss_web_controller.erl"},{line,462}]},{mochiweb_http,headers,5,[{file,"src/mochiweb_http.erl"},{line,94}]}]}2013-10-07 22:04:09 =ERROR REPORT====
+POST /chat/post/public [chipchat] 500 76ms2013-10-07 22:05:02 =CRASH REPORT====
+  crasher:
+    initial call: mochiweb_acceptor:init/3
+    pid: <0.456.0>
+    registered_name: []
+    exception error: bad argument: [{erlang,iolist_size,[undefined],[]},{mochiweb_request,respond,2,[{file,"src/mochiweb_request.erl"},{line,337}]},{mochiweb_http,headers,5,[{file,"src/mochiweb_http.erl"},{line,94}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]
+    ancestors: [mochiweb_http,boss_web,boss_sup,<0.64.0>]
+    messages: []
+    links: [<0.138.0>,#Port<0.46303>]
+    dictionary: [{mochiweb_request_body,<<"nickname=russell&message=hello%21%0D%0A">>},{random_seed,{14823,13580,26436}},{mochiweb_request_recv,true},{mochiweb_request_post,[{"nickname","russell"},{"message","hello!\r\n"}]},{boss_environment,development},{mochiweb_request_cookie,[{"_be-clear-on-cancer_session","WE04QVlmNzN5TkVReEZ0UHNSSXkvTXU4T2U2L0dXUTdHYi9OeGlya0hkK1luYmtTTjRYV3ppaHR0anR3MHhoSUM1UjlsRnBvelI0MjN0SXZxMXBldzBrTDZDRVBsVTUxV0Y5Yi90clZFbnNha2JyN0s1SUpIaVBpR0Y1RElWekFxcG1wTDg4Q0lXbS9Ha0V5UzA2U09peVVyUHVGQUlITzREVlU1TnREdXFpekt1Q1MrenhpNTJMM1E4bVRnTVFQLS1SelFuVGdnSzdtVC9xSThHYUlkVWVnPT0%3D--0beb6e1f3ff1c0972b27d4cfb72095f5f1fb4c5b"},{"_boss_session","5e75be290174e35714c332a4b581509e10218362"}]},{elixir_compiled,undefined}]
+    trap_exit: false
+    status: running
+    heap_size: 10958
+    stack_size: 27
+    reductions: 1366736
+  neighbours:
+2013-10-07 22:05:02 =CRASH REPORT====
+  crasher:
+    initial call: mochiweb_acceptor:init/3
+    pid: <0.401.0>
+    registered_name: []
+    exception error: bad argument: [{erlang,iolist_size,[undefined],[]},{mochiweb_request,respond,2,[{file,"src/mochiweb_request.erl"},{line,337}]},{mochiweb_http,headers,5,[{file,"src/mochiweb_http.erl"},{line,94}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]
+    ancestors: [mochiweb_http,boss_web,boss_sup,<0.64.0>]
+    messages: []
+    links: [<0.138.0>,#Port<0.51041>]
+    dictionary: [{mochiweb_request_body,<<"nickname=russell&message=hello%21%0D%0A">>},{random_seed,{29862,1581,5177}},{mochiweb_request_recv,true},{mochiweb_request_post,[{"nickname","russell"},{"message","hello!\r\n"}]},{boss_environment,development},{mochiweb_request_cookie,[{"_be-clear-on-cancer_session","WE04QVlmNzN5TkVReEZ0UHNSSXkvTXU4T2U2L0dXUTdHYi9OeGlya0hkK1luYmtTTjRYV3ppaHR0anR3MHhoSUM1UjlsRnBvelI0MjN0SXZxMXBldzBrTDZDRVBsVTUxV0Y5Yi90clZFbnNha2JyN0s1SUpIaVBpR0Y1RElWekFxcG1wTDg4Q0lXbS9Ha0V5UzA2U09peVVyUHVGQUlITzREVlU1TnREdXFpekt1Q1MrenhpNTJMM1E4bVRnTVFQLS1SelFuVGdnSzdtVC9xSThHYUlkVWVnPT0%3D--0beb6e1f3ff1c0972b27d4cfb72095f5f1fb4c5b"},{"_boss_session","5e75be290174e35714c332a4b581509e10218362"}]},{elixir_compiled,undefined}]
+    trap_exit: false
+    status: running
+    heap_size: 10958
+    stack_size: 27
+    reductions: 448064
+  neighbours:
+2013-10-07 22:05:05 =CRASH REPORT====
+  crasher:
+    initial call: mochiweb_acceptor:init/3
+    pid: <0.495.0>
+    registered_name: []
+    exception error: bad argument: [{erlang,iolist_size,[undefined],[]},{mochiweb_request,respond,2,[{file,"src/mochiweb_request.erl"},{line,337}]},{mochiweb_http,headers,5,[{file,"src/mochiweb_http.erl"},{line,94}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]
+    ancestors: [mochiweb_http,boss_web,boss_sup,<0.64.0>]
+    messages: []
+    links: [<0.138.0>,#Port<0.51366>]
+    dictionary: [{mochiweb_request_body,<<"nickname=russell&message=hello%21%0D%0A">>},{random_seed,{29862,1581,5177}},{mochiweb_request_recv,true},{mochiweb_request_post,[{"nickname","russell"},{"message","hello!\r\n"}]},{boss_environment,development},{mochiweb_request_cookie,[{"_be-clear-on-cancer_session","WE04QVlmNzN5TkVReEZ0UHNSSXkvTXU4T2U2L0dXUTdHYi9OeGlya0hkK1luYmtTTjRYV3ppaHR0anR3MHhoSUM1UjlsRnBvelI0MjN0SXZxMXBldzBrTDZDRVBsVTUxV0Y5Yi90clZFbnNha2JyN0s1SUpIaVBpR0Y1RElWekFxcG1wTDg4Q0lXbS9Ha0V5UzA2U09peVVyUHVGQUlITzREVlU1TnREdXFpekt1Q1MrenhpNTJMM1E4bVRnTVFQLS1SelFuVGdnSzdtVC9xSThHYUlkVWVnPT0%3D--0beb6e1f3ff1c0972b27d4cfb72095f5f1fb4c5b"},{"_boss_session","5e75be290174e35714c332a4b581509e10218362"}]},{elixir_compiled,undefined}]
+    trap_exit: false
+    status: running
+    heap_size: 10958
+    stack_size: 27
+    reductions: 437412
+  neighbours:
+2013-10-07 22:05:10 =CRASH REPORT====
+  crasher:
+    initial call: mochiweb_acceptor:init/3
+    pid: <0.592.0>
+    registered_name: []
+    exception error: bad argument: [{erlang,iolist_size,[undefined],[]},{mochiweb_request,respond,2,[{file,"src/mochiweb_request.erl"},{line,337}]},{mochiweb_http,headers,5,[{file,"src/mochiweb_http.erl"},{line,94}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]
+    ancestors: [mochiweb_http,boss_web,boss_sup,<0.64.0>]
+    messages: []
+    links: [<0.138.0>,#Port<0.51367>]
+    dictionary: [{mochiweb_request_body,<<"nickname=russell&message=hello%21%0D%0A">>},{random_seed,{29862,1581,5177}},{mochiweb_request_recv,true},{mochiweb_request_post,[{"nickname","russell"},{"message","hello!\r\n"}]},{boss_environment,development},{mochiweb_request_cookie,[{"_be-clear-on-cancer_session","WE04QVlmNzN5TkVReEZ0UHNSSXkvTXU4T2U2L0dXUTdHYi9OeGlya0hkK1luYmtTTjRYV3ppaHR0anR3MHhoSUM1UjlsRnBvelI0MjN0SXZxMXBldzBrTDZDRVBsVTUxV0Y5Yi90clZFbnNha2JyN0s1SUpIaVBpR0Y1RElWekFxcG1wTDg4Q0lXbS9Ha0V5UzA2U09peVVyUHVGQUlITzREVlU1TnREdXFpekt1Q1MrenhpNTJMM1E4bVRnTVFQLS1SelFuVGdnSzdtVC9xSThHYUlkVWVnPT0%3D--0beb6e1f3ff1c0972b27d4cfb72095f5f1fb4c5b"},{"_boss_session","5e75be290174e35714c332a4b581509e10218362"}]},{elixir_compiled,undefined}]
+    trap_exit: false
+    status: running
+    heap_size: 10958
+    stack_size: 27
+    reductions: 427946
+  neighbours:
+2013-10-07 22:05:54 =ERROR REPORT====
+{function_clause,[{'Elixir-Chipchat-ChatController',post,[{simple_bridge_request_wrapper,mochiweb_request_bridge,{mochiweb_request,[#Port<0.55949>,'GET',"/chat/post/public",{1,1},{8,{"host",{'Host',"localhost:8001"},{"connection",{'Connection',"keep-alive"},{"cache-control",{'Cache-Control',"max-age=0"},{"accept",{'Accept',"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"},nil,{"accept-encoding",{'Accept-Encoding',"gzip,deflate,sdch"},nil,{"accept-language",{'Accept-Language',"en-US,en;q=0.8"},nil,nil}}},nil},{"cookie",{'Cookie',"_be-clear-on-cancer_session=WE04QVlmNzN5TkVReEZ0UHNSSXkvTXU4T2U2L0dXUTdHYi9OeGlya0hkK1luYmtTTjRYV3ppaHR0anR3MHhoSUM1UjlsRnBvelI0MjN0SXZxMXBldzBrTDZDRVBsVTUxV0Y5Yi90clZFbnNha2JyN0s1SUpIaVBpR0Y1RElWekFxcG1wTDg4Q0lXbS9Ha0V5UzA2U09peVVyUHVGQUlITzREVlU1TnREdXFpekt1Q1MrenhpNTJMM1E4bVRnTVFQLS1SelFuVGdnSzdtVC9xSThHYUlkVWVnPT0%3D--0beb6e1f3ff1c0972b27d4cfb72095f5f1fb4c5b; _boss_session=5e75be290174e35714c332a4b581509e10218362"},nil,nil}},{"user-agent",{'User-Agent',"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.69 Safari/537.36"},nil,nil}}}]},false,[],[],none},"5e75be290174e35714c332a4b581509e10218362",'GET',[<<"public">>]],[{file,"/Users/rsslldnphy/Code/chipchat/src/controller/chat_controller.ex"},{line,16}]},{boss_web_controller,execute_action,5,[{file,"src/boss/boss_web_controller.erl"},{line,836}]},{boss_web_controller,process_dynamic_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,543}]},{boss_web_controller,process_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,532}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]},{boss_web_controller,build_dynamic_response,4,[{file,"src/boss/boss_web_controller.erl"},{line,462}]},{mochiweb_http,headers,5,[{file,"src/mochiweb_http.erl"},{line,94}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}2013-10-07 22:05:54 =ERROR REPORT====
+GET /chat/post/public [chipchat] 500 67ms2013-10-07 22:06:01 =CRASH REPORT====
+  crasher:
+    initial call: mochiweb_acceptor:init/3
+    pid: <0.146.0>
+    registered_name: []
+    exception error: bad argument: [{erlang,iolist_size,[undefined],[]},{mochiweb_request,respond,2,[{file,"src/mochiweb_request.erl"},{line,337}]},{mochiweb_http,headers,5,[{file,"src/mochiweb_http.erl"},{line,94}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]
+    ancestors: [mochiweb_http,boss_web,boss_sup,<0.64.0>]
+    messages: []
+    links: [<0.138.0>,#Port<0.55949>]
+    dictionary: [{mochiweb_request_body,<<"nickname=russell&message=hello%21%0D%0A">>},{random_seed,{1684,23530,6872}},{mochiweb_request_recv,true},{mochiweb_request_post,[{"nickname","russell"},{"message","hello!\r\n"}]},{boss_environment,development},{mochiweb_request_cookie,[{"_be-clear-on-cancer_session","WE04QVlmNzN5TkVReEZ0UHNSSXkvTXU4T2U2L0dXUTdHYi9OeGlya0hkK1luYmtTTjRYV3ppaHR0anR3MHhoSUM1UjlsRnBvelI0MjN0SXZxMXBldzBrTDZDRVBsVTUxV0Y5Yi90clZFbnNha2JyN0s1SUpIaVBpR0Y1RElWekFxcG1wTDg4Q0lXbS9Ha0V5UzA2U09peVVyUHVGQUlITzREVlU1TnREdXFpekt1Q1MrenhpNTJMM1E4bVRnTVFQLS1SelFuVGdnSzdtVC9xSThHYUlkVWVnPT0%3D--0beb6e1f3ff1c0972b27d4cfb72095f5f1fb4c5b"},{"_boss_session","5e75be290174e35714c332a4b581509e10218362"}]},{elixir_compiled,undefined}]
+    trap_exit: false
+    status: running
+    heap_size: 10958
+    stack_size: 27
+    reductions: 935268
+  neighbours:
+2013-10-07 22:06:01 =CRASH REPORT====
+  crasher:
+    initial call: mochiweb_acceptor:init/3
+    pid: <0.294.0>
+    registered_name: []
+    exception error: bad argument: [{erlang,iolist_size,[undefined],[]},{mochiweb_request,respond,2,[{file,"src/mochiweb_request.erl"},{line,337}]},{mochiweb_http,headers,5,[{file,"src/mochiweb_http.erl"},{line,94}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]
+    ancestors: [mochiweb_http,boss_web,boss_sup,<0.64.0>]
+    messages: []
+    links: [<0.138.0>,#Port<0.55950>]
+    dictionary: [{mochiweb_request_body,<<"nickname=russell&message=hello%21%0D%0A">>},{random_seed,{29862,1581,5177}},{mochiweb_request_recv,true},{mochiweb_request_post,[{"nickname","russell"},{"message","hello!\r\n"}]},{boss_environment,development},{mochiweb_request_cookie,[{"_be-clear-on-cancer_session","WE04QVlmNzN5TkVReEZ0UHNSSXkvTXU4T2U2L0dXUTdHYi9OeGlya0hkK1luYmtTTjRYV3ppaHR0anR3MHhoSUM1UjlsRnBvelI0MjN0SXZxMXBldzBrTDZDRVBsVTUxV0Y5Yi90clZFbnNha2JyN0s1SUpIaVBpR0Y1RElWekFxcG1wTDg4Q0lXbS9Ha0V5UzA2U09peVVyUHVGQUlITzREVlU1TnREdXFpekt1Q1MrenhpNTJMM1E4bVRnTVFQLS1SelFuVGdnSzdtVC9xSThHYUlkVWVnPT0%3D--0beb6e1f3ff1c0972b27d4cfb72095f5f1fb4c5b"},{"_boss_session","5e75be290174e35714c332a4b581509e10218362"}]},{elixir_compiled,undefined}]
+    trap_exit: false
+    status: running
+    heap_size: 10958
+    stack_size: 27
+    reductions: 471354
+  neighbours:
+2013-10-07 22:06:55 =ERROR REPORT====
+{function_clause,[{'Elixir-Chipchat-ChatController',post,[{simple_bridge_request_wrapper,mochiweb_request_bridge,{mochiweb_request,[#Port<0.56437>,'GET',"/chat/post/public",{1,1},{8,{"host",{'Host',"localhost:8001"},{"connection",{'Connection',"keep-alive"},{"cache-control",{'Cache-Control',"max-age=0"},{"accept",{'Accept',"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"},nil,{"accept-encoding",{'Accept-Encoding',"gzip,deflate,sdch"},nil,{"accept-language",{'Accept-Language',"en-US,en;q=0.8"},nil,nil}}},nil},{"cookie",{'Cookie',"_be-clear-on-cancer_session=WE04QVlmNzN5TkVReEZ0UHNSSXkvTXU4T2U2L0dXUTdHYi9OeGlya0hkK1luYmtTTjRYV3ppaHR0anR3MHhoSUM1UjlsRnBvelI0MjN0SXZxMXBldzBrTDZDRVBsVTUxV0Y5Yi90clZFbnNha2JyN0s1SUpIaVBpR0Y1RElWekFxcG1wTDg4Q0lXbS9Ha0V5UzA2U09peVVyUHVGQUlITzREVlU1TnREdXFpekt1Q1MrenhpNTJMM1E4bVRnTVFQLS1SelFuVGdnSzdtVC9xSThHYUlkVWVnPT0%3D--0beb6e1f3ff1c0972b27d4cfb72095f5f1fb4c5b; _boss_session=5e75be290174e35714c332a4b581509e10218362"},nil,nil}},{"user-agent",{'User-Agent',"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.69 Safari/537.36"},nil,nil}}}]},false,[],[],none},"5e75be290174e35714c332a4b581509e10218362",'GET',[<<"public">>]],[{file,"/Users/rsslldnphy/Code/chipchat/src/controller/chat_controller.ex"},{line,16}]},{boss_web_controller,execute_action,5,[{file,"src/boss/boss_web_controller.erl"},{line,836}]},{boss_web_controller,process_dynamic_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,543}]},{boss_web_controller,process_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,532}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]},{boss_web_controller,build_dynamic_response,4,[{file,"src/boss/boss_web_controller.erl"},{line,462}]},{mochiweb_http,headers,5,[{file,"src/mochiweb_http.erl"},{line,94}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}2013-10-07 22:06:55 =ERROR REPORT====
+GET /chat/post/public [chipchat] 500 71ms2013-10-07 22:07:05 =CRASH REPORT====
+  crasher:
+    initial call: mochiweb_acceptor:init/3
+    pid: <0.649.0>
+    registered_name: []
+    exception error: bad argument: [{erlang,iolist_size,[undefined],[]},{mochiweb_request,respond,2,[{file,"src/mochiweb_request.erl"},{line,337}]},{mochiweb_http,headers,5,[{file,"src/mochiweb_http.erl"},{line,94}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]
+    ancestors: [mochiweb_http,boss_web,boss_sup,<0.64.0>]
+    messages: []
+    links: [<0.138.0>,#Port<0.56437>]
+    dictionary: [{mochiweb_request_body,<<"nickname=russell&message=hello%21%0D%0A">>},{random_seed,{1684,23530,6872}},{mochiweb_request_recv,true},{mochiweb_request_post,[{"nickname","russell"},{"message","hello!\r\n"}]},{boss_environment,development},{mochiweb_request_cookie,[{"_be-clear-on-cancer_session","WE04QVlmNzN5TkVReEZ0UHNSSXkvTXU4T2U2L0dXUTdHYi9OeGlya0hkK1luYmtTTjRYV3ppaHR0anR3MHhoSUM1UjlsRnBvelI0MjN0SXZxMXBldzBrTDZDRVBsVTUxV0Y5Yi90clZFbnNha2JyN0s1SUpIaVBpR0Y1RElWekFxcG1wTDg4Q0lXbS9Ha0V5UzA2U09peVVyUHVGQUlITzREVlU1TnREdXFpekt1Q1MrenhpNTJMM1E4bVRnTVFQLS1SelFuVGdnSzdtVC9xSThHYUlkVWVnPT0%3D--0beb6e1f3ff1c0972b27d4cfb72095f5f1fb4c5b"},{"_boss_session","5e75be290174e35714c332a4b581509e10218362"}]},{elixir_compiled,undefined}]
+    trap_exit: false
+    status: running
+    heap_size: 10958
+    stack_size: 27
+    reductions: 877696
+  neighbours:
+2013-10-07 22:07:05 =CRASH REPORT====
+  crasher:
+    initial call: mochiweb_acceptor:init/3
+    pid: <0.650.0>
+    registered_name: []
+    exception error: bad argument: [{erlang,iolist_size,[undefined],[]},{mochiweb_request,respond,2,[{file,"src/mochiweb_request.erl"},{line,337}]},{mochiweb_http,headers,5,[{file,"src/mochiweb_http.erl"},{line,94}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]
+    ancestors: [mochiweb_http,boss_web,boss_sup,<0.64.0>]
+    messages: []
+    links: [<0.138.0>,#Port<0.56438>]
+    dictionary: [{mochiweb_request_body,<<"nickname=russell&message=hello%21%0D%0A">>},{random_seed,{29862,1581,5177}},{mochiweb_request_recv,true},{mochiweb_request_post,[{"nickname","russell"},{"message","hello!\r\n"}]},{boss_environment,development},{mochiweb_request_cookie,[{"_be-clear-on-cancer_session","WE04QVlmNzN5TkVReEZ0UHNSSXkvTXU4T2U2L0dXUTdHYi9OeGlya0hkK1luYmtTTjRYV3ppaHR0anR3MHhoSUM1UjlsRnBvelI0MjN0SXZxMXBldzBrTDZDRVBsVTUxV0Y5Yi90clZFbnNha2JyN0s1SUpIaVBpR0Y1RElWekFxcG1wTDg4Q0lXbS9Ha0V5UzA2U09peVVyUHVGQUlITzREVlU1TnREdXFpekt1Q1MrenhpNTJMM1E4bVRnTVFQLS1SelFuVGdnSzdtVC9xSThHYUlkVWVnPT0%3D--0beb6e1f3ff1c0972b27d4cfb72095f5f1fb4c5b"},{"_boss_session","5e75be290174e35714c332a4b581509e10218362"}]},{elixir_compiled,undefined}]
+    trap_exit: false
+    status: running
+    heap_size: 10958
+    stack_size: 27
+    reductions: 435144
+  neighbours:
+2013-10-07 22:10:21 =ERROR REPORT====
+{{'Elixir-ArgumentError','__exception__',<<"Unsupported expression in pipeline |> operator: {:output,{:\"&\",[line: 18],[1]}}">>},[{'Elixir-Kernel',raise,2,[{file,"/Users/rsslldnphy/Code/ChicagoBoss-0.8.7/deps/elixir/lib/elixir/lib/kernel.ex"},{line,2812}]},{'Elixir-Kernel','|>',2,[{file,<<"/Users/rsslldnphy/Code/chipchat/src/controller/chat_controller.ex">>},{line,18}]}]}2013-10-07 22:10:21 =ERROR REPORT====
+POST /chat/post/public [chipchat] 500 56ms2013-10-07 22:10:28 =ERROR REPORT====
+{{'Elixir-SyntaxError','__exception__',<<"/Users/rsslldnphy/Code/chipchat/src/controller/chat_controller.ex">>,18,<<"invalid token: &{ :output, &1 }">>},[{erl_parse,yecctoken_end_location,1,[{file,"/private/tmp/default-sLcs/otp-OTP_R16B02/bootstrap/lib/parsetools/include/yeccpre.hrl"},{line,128}]},{erl_parse,yeccpars1,7,[{file,"/private/tmp/default-sLcs/otp-OTP_R16B02/bootstrap/lib/parsetools/include/yeccpre.hrl"},{line,113}]},{erl_parse,yeccpars0,5,[{file,"/private/tmp/default-sLcs/otp-OTP_R16B02/bootstrap/lib/parsetools/include/yeccpre.hrl"},{line,56}]},{boss_compiler,parse_tokens,5,[{file,"src/boss_compiler.erl"},{line,120}]},{boss_compiler,parse_text,4,[{file,"src/boss_compiler.erl"},{line,97}]},{boss_compiler,compile,2,[{file,"src/boss_compiler.erl"},{line,11}]},{boss_load,compile_and_accumulate_errors,5,[{file,"src/boss/boss_load.erl"},{line,146}]},{boss_load,load_dir,4,[{file,"src/boss/boss_load.erl"},{line,121}]}]}2013-10-07 22:10:28 =ERROR REPORT====
+POST /chat/post/public [chipchat] 500 18ms2013-10-07 22:12:05 =ERROR REPORT====
+{badarg,[{erlang,bit_size,["hello!\r\n"],[]},{'Elixir-Chipchat-ChatController',post,4,[{file,"/Users/rsslldnphy/Code/chipchat/src/controller/chat_controller.ex"},{line,18}]},{boss_web_controller,execute_action,5,[{file,"src/boss/boss_web_controller.erl"},{line,836}]},{boss_web_controller,process_dynamic_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,543}]},{boss_web_controller,process_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,532}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]},{boss_web_controller,build_dynamic_response,4,[{file,"src/boss/boss_web_controller.erl"},{line,462}]},{mochiweb_http,headers,5,[{file,"src/mochiweb_http.erl"},{line,94}]}]}2013-10-07 22:12:05 =ERROR REPORT====
+POST /chat/post/public [chipchat] 500 73ms2013-10-07 22:13:11 =ERROR REPORT====
+{undef,[{message,new,[id,<<"hello!\r\n">>,<<"russell">>,{{2013,10,7},{22,13,11}}],[]},{'Elixir-Chipchat-ChatController',post,4,[{file,"/Users/rsslldnphy/Code/chipchat/src/controller/chat_controller.ex"},{line,17}]},{boss_web_controller,execute_action,5,[{file,"src/boss/boss_web_controller.erl"},{line,836}]},{boss_web_controller,process_dynamic_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,543}]},{boss_web_controller,process_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,532}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]},{boss_web_controller,build_dynamic_response,4,[{file,"src/boss/boss_web_controller.erl"},{line,462}]},{mochiweb_http,headers,5,[{file,"src/mochiweb_http.erl"},{line,94}]}]}2013-10-07 22:13:11 =ERROR REPORT====
+POST /chat/post/public [chipchat] 500 82ms2013-10-07 22:13:45 =ERROR REPORT====
+{undef,[{message,new,[id,"hello!\r\n","russell",{{2013,10,7},{22,13,45}}],[]},{'Elixir-Chipchat-ChatController',post,4,[{file,"/Users/rsslldnphy/Code/chipchat/src/controller/chat_controller.ex"},{line,17}]},{boss_web_controller,execute_action,5,[{file,"src/boss/boss_web_controller.erl"},{line,836}]},{boss_web_controller,process_dynamic_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,543}]},{boss_web_controller,process_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,532}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]},{boss_web_controller,build_dynamic_response,4,[{file,"src/boss/boss_web_controller.erl"},{line,462}]},{mochiweb_http,headers,5,[{file,"src/mochiweb_http.erl"},{line,94}]}]}2013-10-07 22:13:45 =ERROR REPORT====
+POST /chat/post/public [chipchat] 500 79ms2013-10-07 22:31:55 =CRASH REPORT====
+  crasher:
+    initial call: mochiweb_acceptor:init/3
+    pid: <0.771.0>
+    registered_name: []
+    exception error: bad argument: [{erlang,iolist_size,[{message,id,[],[],{{2013,10,7},{22,31,55}}}],[]},{mochiweb_request,respond,2,[{file,"src/mochiweb_request.erl"},{line,337}]},{mochiweb_http,headers,5,[{file,"src/mochiweb_http.erl"},{line,94}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]
+    ancestors: [mochiweb_http,boss_web,boss_sup,<0.64.0>]
+    messages: []
+    links: [#Port<0.96662>,<0.138.0>]
+    dictionary: [{mochiweb_request_body,<<"nickname=&message=">>},{random_seed,{25584,23720,2336}},{mochiweb_request_recv,true},{mochiweb_request_post,[{"nickname",[]},{"message",[]}]},{boss_environment,development},{mochiweb_request_cookie,[{"_be-clear-on-cancer_session","WE04QVlmNzN5TkVReEZ0UHNSSXkvTXU4T2U2L0dXUTdHYi9OeGlya0hkK1luYmtTTjRYV3ppaHR0anR3MHhoSUM1UjlsRnBvelI0MjN0SXZxMXBldzBrTDZDRVBsVTUxV0Y5Yi90clZFbnNha2JyN0s1SUpIaVBpR0Y1RElWekFxcG1wTDg4Q0lXbS9Ha0V5UzA2U09peVVyUHVGQUlITzREVlU1TnREdXFpekt1Q1MrenhpNTJMM1E4bVRnTVFQLS1SelFuVGdnSzdtVC9xSThHYUlkVWVnPT0%3D--0beb6e1f3ff1c0972b27d4cfb72095f5f1fb4c5b"},{"_boss_session","5e75be290174e35714c332a4b581509e10218362"}]},{elixir_compiled,undefined}]
+    trap_exit: false
+    status: running
+    heap_size: 6772
+    stack_size: 27
+    reductions: 2487042
+  neighbours:
+2013-10-07 22:31:55 =CRASH REPORT====
+  crasher:
+    initial call: mochiweb_acceptor:init/3
+    pid: <0.878.0>
+    registered_name: []
+    exception error: bad argument: [{erlang,iolist_size,[{message,id,[],[],{{2013,10,7},{22,31,55}}}],[]},{mochiweb_request,respond,2,[{file,"src/mochiweb_request.erl"},{line,337}]},{mochiweb_http,headers,5,[{file,"src/mochiweb_http.erl"},{line,94}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]
+    ancestors: [mochiweb_http,boss_web,boss_sup,<0.64.0>]
+    messages: []
+    links: [<0.138.0>,#Port<0.99124>]
+    dictionary: [{mochiweb_request_body,<<"nickname=&message=">>},{random_seed,{26776,21904,10766}},{mochiweb_request_recv,true},{mochiweb_request_post,[{"nickname",[]},{"message",[]}]},{boss_environment,development},{mochiweb_request_cookie,[{"_be-clear-on-cancer_session","WE04QVlmNzN5TkVReEZ0UHNSSXkvTXU4T2U2L0dXUTdHYi9OeGlya0hkK1luYmtTTjRYV3ppaHR0anR3MHhoSUM1UjlsRnBvelI0MjN0SXZxMXBldzBrTDZDRVBsVTUxV0Y5Yi90clZFbnNha2JyN0s1SUpIaVBpR0Y1RElWekFxcG1wTDg4Q0lXbS9Ha0V5UzA2U09peVVyUHVGQUlITzREVlU1TnREdXFpekt1Q1MrenhpNTJMM1E4bVRnTVFQLS1SelFuVGdnSzdtVC9xSThHYUlkVWVnPT0%3D--0beb6e1f3ff1c0972b27d4cfb72095f5f1fb4c5b"},{"_boss_session","5e75be290174e35714c332a4b581509e10218362"}]},{elixir_compiled,undefined}]
+    trap_exit: false
+    status: running
+    heap_size: 6772
+    stack_size: 27
+    reductions: 598617
+  neighbours:
+2013-10-07 22:45:25 =ERROR REPORT====
+{{'Elixir-SyntaxError','__exception__',<<"/Users/rsslldnphy/Code/chipchat/src/controller/chat_controller.ex">>,15,<<"unexpected token: end">>},[{erl_parse,yecctoken_end_location,1,[{file,"/private/tmp/default-sLcs/otp-OTP_R16B02/bootstrap/lib/parsetools/include/yeccpre.hrl"},{line,128}]},{erl_parse,yeccpars1,7,[{file,"/private/tmp/default-sLcs/otp-OTP_R16B02/bootstrap/lib/parsetools/include/yeccpre.hrl"},{line,113}]},{erl_parse,yeccpars0,5,[{file,"/private/tmp/default-sLcs/otp-OTP_R16B02/bootstrap/lib/parsetools/include/yeccpre.hrl"},{line,56}]},{boss_compiler,parse_tokens,5,[{file,"src/boss_compiler.erl"},{line,120}]},{boss_compiler,parse_text,4,[{file,"src/boss_compiler.erl"},{line,97}]},{boss_compiler,compile,2,[{file,"src/boss_compiler.erl"},{line,11}]},{boss_load,compile_and_accumulate_errors,5,[{file,"src/boss/boss_load.erl"},{line,146}]},{boss_load,load_dir,4,[{file,"src/boss/boss_load.erl"},{line,121}]}]}2013-10-07 22:45:25 =ERROR REPORT====
+GET /chat [chipchat] 500 19ms2013-10-07 22:45:32 =ERROR REPORT====
+{{'Elixir-SyntaxError','__exception__',<<"/Users/rsslldnphy/Code/chipchat/src/controller/chat_controller.ex">>,15,<<"unexpected token: end">>},[{erl_parse,yecctoken_end_location,1,[{file,"/private/tmp/default-sLcs/otp-OTP_R16B02/bootstrap/lib/parsetools/include/yeccpre.hrl"},{line,128}]},{erl_parse,yeccpars1,7,[{file,"/private/tmp/default-sLcs/otp-OTP_R16B02/bootstrap/lib/parsetools/include/yeccpre.hrl"},{line,113}]},{erl_parse,yeccpars0,5,[{file,"/private/tmp/default-sLcs/otp-OTP_R16B02/bootstrap/lib/parsetools/include/yeccpre.hrl"},{line,56}]},{boss_compiler,parse_tokens,5,[{file,"src/boss_compiler.erl"},{line,120}]},{boss_compiler,parse_text,4,[{file,"src/boss_compiler.erl"},{line,97}]},{boss_compiler,compile,2,[{file,"src/boss_compiler.erl"},{line,11}]},{boss_load,compile_and_accumulate_errors,5,[{file,"src/boss/boss_load.erl"},{line,146}]},{boss_load,load_dir,4,[{file,"src/boss/boss_load.erl"},{line,121}]}]}2013-10-07 22:45:32 =ERROR REPORT====
+GET /chat [chipchat] 500 19ms2013-10-07 22:45:53 =ERROR REPORT====
+{{'Elixir-SyntaxError','__exception__',<<"/Users/rsslldnphy/Code/chipchat/src/controller/chat_controller.ex">>,15,<<"unexpected token: end">>},[{erl_parse,yecctoken_end_location,1,[{file,"/private/tmp/default-sLcs/otp-OTP_R16B02/bootstrap/lib/parsetools/include/yeccpre.hrl"},{line,128}]},{erl_parse,yeccpars1,7,[{file,"/private/tmp/default-sLcs/otp-OTP_R16B02/bootstrap/lib/parsetools/include/yeccpre.hrl"},{line,113}]},{erl_parse,yeccpars0,5,[{file,"/private/tmp/default-sLcs/otp-OTP_R16B02/bootstrap/lib/parsetools/include/yeccpre.hrl"},{line,56}]},{boss_compiler,parse_tokens,5,[{file,"src/boss_compiler.erl"},{line,120}]},{boss_compiler,parse_text,4,[{file,"src/boss_compiler.erl"},{line,97}]},{boss_compiler,compile,2,[{file,"src/boss_compiler.erl"},{line,11}]},{boss_load,compile_and_accumulate_errors,5,[{file,"src/boss/boss_load.erl"},{line,146}]},{boss_load,load_dir,4,[{file,"src/boss/boss_load.erl"},{line,121}]}]}2013-10-07 22:45:53 =ERROR REPORT====
+GET /chat [chipchat] 500 18ms2013-10-07 22:45:54 =ERROR REPORT====
+{{'Elixir-SyntaxError','__exception__',<<"/Users/rsslldnphy/Code/chipchat/src/controller/chat_controller.ex">>,15,<<"unexpected token: end">>},[{erl_parse,yecctoken_end_location,1,[{file,"/private/tmp/default-sLcs/otp-OTP_R16B02/bootstrap/lib/parsetools/include/yeccpre.hrl"},{line,128}]},{erl_parse,yeccpars1,7,[{file,"/private/tmp/default-sLcs/otp-OTP_R16B02/bootstrap/lib/parsetools/include/yeccpre.hrl"},{line,113}]},{erl_parse,yeccpars0,5,[{file,"/private/tmp/default-sLcs/otp-OTP_R16B02/bootstrap/lib/parsetools/include/yeccpre.hrl"},{line,56}]},{boss_compiler,parse_tokens,5,[{file,"src/boss_compiler.erl"},{line,120}]},{boss_compiler,parse_text,4,[{file,"src/boss_compiler.erl"},{line,97}]},{boss_compiler,compile,2,[{file,"src/boss_compiler.erl"},{line,11}]},{boss_load,compile_and_accumulate_errors,5,[{file,"src/boss/boss_load.erl"},{line,146}]},{boss_load,load_dir,4,[{file,"src/boss/boss_load.erl"},{line,121}]}]}2013-10-07 22:45:54 =ERROR REPORT====
+GET /chat [chipchat] 500 36ms2013-10-07 22:46:05 =ERROR REPORT====
+{{'Elixir-CompileError','__exception__',<<"/Users/rsslldnphy/Code/chipchat/src/controller/chat_controller.ex">>,14,<<"function json/0 undefined">>},[]}2013-10-07 22:46:05 =ERROR REPORT====
+GET /chat [chipchat] 500 58ms2013-10-07 22:46:26 =ERROR REPORT====
+{badarg,[{erlang,list_to_integer,[<<"0">>],[]},{'Elixir-Chipchat-ChatController',messages,4,[{file,"/Users/rsslldnphy/Code/chipchat/src/controller/chat_controller.ex"},{line,13}]},{boss_web_controller,execute_action,5,[{file,"src/boss/boss_web_controller.erl"},{line,836}]},{boss_web_controller,process_dynamic_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,543}]},{boss_web_controller,process_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,532}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]},{boss_web_controller,build_dynamic_response,4,[{file,"src/boss/boss_web_controller.erl"},{line,462}]},{mochiweb_http,headers,5,[{file,"src/mochiweb_http.erl"},{line,94}]}]}2013-10-07 22:46:26 =ERROR REPORT====
+GET /chat/messages/public/0 [chipchat] 500 96ms2013-10-07 22:46:52 =ERROR REPORT====
+{{badmatch,{error,invalid_channel}},[{'Elixir-Chipchat-ChatController',messages,4,[{file,"/Users/rsslldnphy/Code/chipchat/src/controller/chat_controller.ex"},{line,13}]},{boss_web_controller,execute_action,5,[{file,"src/boss/boss_web_controller.erl"},{line,836}]},{boss_web_controller,process_dynamic_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,543}]},{boss_web_controller,process_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,532}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]},{boss_web_controller,build_dynamic_response,4,[{file,"src/boss/boss_web_controller.erl"},{line,462}]},{mochiweb_http,headers,5,[{file,"src/mochiweb_http.erl"},{line,94}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}2013-10-07 22:46:52 =ERROR REPORT====
+GET /chat/messages/public/0 [chipchat] 500 104ms2013-10-07 22:48:06 =ERROR REPORT====
+{{badmatch,{error,invalid_channel}},[{'Elixir-Chipchat-ChatController',messages,4,[{file,"/Users/rsslldnphy/Code/chipchat/src/controller/chat_controller.ex"},{line,13}]},{boss_web_controller,execute_action,5,[{file,"src/boss/boss_web_controller.erl"},{line,836}]},{boss_web_controller,process_dynamic_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,543}]},{boss_web_controller,process_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,532}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]},{boss_web_controller,build_dynamic_response,4,[{file,"src/boss/boss_web_controller.erl"},{line,462}]},{mochiweb_http,headers,5,[{file,"src/mochiweb_http.erl"},{line,94}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}2013-10-07 22:48:06 =ERROR REPORT====
+GET /chat/messages/public/0 [chipchat] 500 134ms2013-10-07 22:51:12 =ERROR REPORT====
+{function_clause,[{boss_json,json_data1,[[{message,id,"aou","oaeu",{{2013,10,7},{22,51,12}}}],[],[]],[{file,"src/boss/boss_json.erl"},{line,23}]},{boss_json,json_data1,3,[{file,"src/boss/boss_json.erl"},{line,32}]},{boss_json,encode,2,[{file,"src/boss/boss_json.erl"},{line,9}]},{boss_web_controller,process_action_result,5,[{file,"src/boss/boss_web_controller.erl"},{line,953}]},{boss_web_controller,execute_action,5,[{file,"src/boss/boss_web_controller.erl"},{line,863}]},{boss_web_controller,process_dynamic_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,543}]},{boss_web_controller,process_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,532}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]}]}2013-10-07 22:51:12 =ERROR REPORT====
+GET /chat/messages/public/0 [chipchat] 500 100ms2013-10-07 22:51:38 =ERROR REPORT====
+{badarg,[{erlang,binary_to_list,[[{message,id,"aou","oaeu",{{2013,10,7},{22,51,12}}}]],[]},{'Elixir-Chipchat-ChatController',messages,4,[{file,"/Users/rsslldnphy/Code/chipchat/src/controller/chat_controller.ex"},{line,14}]},{boss_web_controller,execute_action,5,[{file,"src/boss/boss_web_controller.erl"},{line,836}]},{boss_web_controller,process_dynamic_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,543}]},{boss_web_controller,process_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,532}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]},{boss_web_controller,build_dynamic_response,4,[{file,"src/boss/boss_web_controller.erl"},{line,462}]},{mochiweb_http,headers,5,[{file,"src/mochiweb_http.erl"},{line,94}]}]}2013-10-07 22:51:38 =ERROR REPORT====
+GET /chat/messages/public/0 [chipchat] 500 97ms2013-10-07 22:51:43 =ERROR REPORT====
+{badarg,[{erlang,binary_to_list,[[{message,id,"aou","oaeu",{{2013,10,7},{22,51,12}}},{message,id,[],[],{{2013,10,7},{22,51,40}}}]],[]},{'Elixir-Chipchat-ChatController',messages,4,[{file,"/Users/rsslldnphy/Code/chipchat/src/controller/chat_controller.ex"},{line,14}]},{boss_web_controller,execute_action,5,[{file,"src/boss/boss_web_controller.erl"},{line,836}]},{boss_web_controller,process_dynamic_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,543}]},{boss_web_controller,process_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,532}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]},{boss_web_controller,build_dynamic_response,4,[{file,"src/boss/boss_web_controller.erl"},{line,462}]},{mochiweb_http,headers,5,[{file,"src/mochiweb_http.erl"},{line,94}]}]}2013-10-07 22:51:43 =ERROR REPORT====
+GET /chat/messages/public/0 [chipchat] 500 101ms2013-10-07 22:51:48 =ERROR REPORT====
+{function_clause,[{boss_json,json_data1,[[{message,id,"aou","oaeu",{{2013,10,7},{22,51,12}}},{message,id,[],[],{{2013,10,7},{22,51,40}}}],[],[]],[{file,"src/boss/boss_json.erl"},{line,23}]},{boss_json,json_data1,3,[{file,"src/boss/boss_json.erl"},{line,32}]},{boss_json,encode,2,[{file,"src/boss/boss_json.erl"},{line,9}]},{boss_web_controller,process_action_result,5,[{file,"src/boss/boss_web_controller.erl"},{line,953}]},{boss_web_controller,execute_action,5,[{file,"src/boss/boss_web_controller.erl"},{line,863}]},{boss_web_controller,process_dynamic_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,543}]},{boss_web_controller,process_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,532}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]}]}2013-10-07 22:51:48 =ERROR REPORT====
+GET /chat/messages/public/0 [chipchat] 500 100ms2013-10-07 22:51:52 =ERROR REPORT====
+{function_clause,[{boss_json,json_data1,[[{message,id,"aou","oaeu",{{2013,10,7},{22,51,12}}},{message,id,[],[],{{2013,10,7},{22,51,40}}}],[],[]],[{file,"src/boss/boss_json.erl"},{line,23}]},{boss_json,json_data1,3,[{file,"src/boss/boss_json.erl"},{line,32}]},{boss_json,encode,2,[{file,"src/boss/boss_json.erl"},{line,9}]},{boss_web_controller,process_action_result,5,[{file,"src/boss/boss_web_controller.erl"},{line,953}]},{boss_web_controller,execute_action,5,[{file,"src/boss/boss_web_controller.erl"},{line,863}]},{boss_web_controller,process_dynamic_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,543}]},{boss_web_controller,process_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,532}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]}]}2013-10-07 22:51:52 =ERROR REPORT====
+GET /chat/messages/public/0 [chipchat] 500 102ms2013-10-07 22:52:29 =ERROR REPORT====
+{function_clause,[{boss_json,json_data1,[[{message,id,"aou","oaeu",{{2013,10,7},{22,51,12}}},{message,id,[],[],{{2013,10,7},{22,51,40}}}],[],[]],[{file,"src/boss/boss_json.erl"},{line,23}]},{boss_json,json_data1,3,[{file,"src/boss/boss_json.erl"},{line,32}]},{boss_json,encode,2,[{file,"src/boss/boss_json.erl"},{line,9}]},{boss_web_controller,process_action_result,5,[{file,"src/boss/boss_web_controller.erl"},{line,953}]},{boss_web_controller,execute_action,5,[{file,"src/boss/boss_web_controller.erl"},{line,863}]},{boss_web_controller,process_dynamic_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,543}]},{boss_web_controller,process_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,532}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]}]}2013-10-07 22:52:29 =ERROR REPORT====
+GET /chat/messages/public/0 [chipchat] 500 105ms2013-10-07 22:52:45 =ERROR REPORT====
+{function_clause,[{boss_json,json_data1,[[{message,id,[],[],{{2013,10,7},{22,51,40}}}],[],[]],[{file,"src/boss/boss_json.erl"},{line,23}]},{boss_json,json_data1,3,[{file,"src/boss/boss_json.erl"},{line,32}]},{boss_json,encode,2,[{file,"src/boss/boss_json.erl"},{line,9}]},{boss_web_controller,process_action_result,5,[{file,"src/boss/boss_web_controller.erl"},{line,953}]},{boss_web_controller,execute_action,5,[{file,"src/boss/boss_web_controller.erl"},{line,863}]},{boss_web_controller,process_dynamic_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,543}]},{boss_web_controller,process_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,532}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]}]}2013-10-07 22:52:45 =ERROR REPORT====
+GET /chat/messages/public/0 [chipchat] 500 103ms2013-10-07 22:52:49 =ERROR REPORT====
+{{badmatch,{error,invalid_channel}},[{'Elixir-Chipchat-ChatController',messages,4,[{file,"/Users/rsslldnphy/Code/chipchat/src/controller/chat_controller.ex"},{line,13}]},{boss_web_controller,execute_action,5,[{file,"src/boss/boss_web_controller.erl"},{line,836}]},{boss_web_controller,process_dynamic_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,543}]},{boss_web_controller,process_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,532}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]},{boss_web_controller,build_dynamic_response,4,[{file,"src/boss/boss_web_controller.erl"},{line,462}]},{mochiweb_http,headers,5,[{file,"src/mochiweb_http.erl"},{line,94}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}2013-10-07 22:52:49 =ERROR REPORT====
+GET /chat/messages/public/0 [chipchat] 500 128ms2013-10-07 22:53:15 =ERROR REPORT====
+{{'Elixir-CompileError','__exception__',<<"/Users/rsslldnphy/Code/chipchat/src/controller/chat_controller.ex">>,14,<<"function '&'/1 undefined">>},[]}2013-10-07 22:53:15 =ERROR REPORT====
+GET /chat [chipchat] 500 64ms2013-10-07 23:00:23 =ERROR REPORT====
+GET / [chipchat] 404 1ms2013-10-07 23:01:08 =ERROR REPORT====
+{{'Elixir-CompileError','__exception__',<<"/Users/rsslldnphy/Code/chipchat/src/controller/chat_controller.ex">>,1,<<"cannot define module Chipchat.ChatController because it is currently being defined">>},[{elixir_parser,yecctoken_end_location,1,[{file,"/usr/local/Cellar/erlang/R16B02/lib/erlang/lib/parsetools-2.0.10/include/yeccpre.hrl"},{line,128}]},{elixir_parser,yeccpars1,7,[{file,"/usr/local/Cellar/erlang/R16B02/lib/erlang/lib/parsetools-2.0.10/include/yeccpre.hrl"},{line,113}]},{elixir_parser,yeccpars0,5,[{file,"/usr/local/Cellar/erlang/R16B02/lib/erlang/lib/parsetools-2.0.10/include/yeccpre.hrl"},{line,56}]},{elixir_translator,forms,4,[{file,"src/elixir_translator.erl"},{line,17}]},{elixir_translator,'forms!',4,[{file,"src/elixir_translator.erl"},{line,27}]},{elixir_compiler,string,2,[{file,"src/elixir_compiler.erl"},{line,29}]},{boss_elixir_compiler,compile,2,[{file,"src/boss/boss_elixir_compiler.erl"},{line,12}]},{boss_load,compile_and_accumulate_errors,5,[{file,"src/boss/boss_load.erl"},{line,146}]}]}2013-10-07 23:01:08 =ERROR REPORT====
+POST /chat/post/public [chipchat] 500 32ms
