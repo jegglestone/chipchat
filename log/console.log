@@ -1,0 +1,356 @@
+2013-10-07 21:00:29.165 [info] <0.7.0> Application lager started on node 'chipchat@Russells-MacBook-Pro-2'
+2013-10-07 21:00:29.178 [info] <0.7.0> Application elixir started on node 'chipchat@Russells-MacBook-Pro-2'
+2013-10-07 21:00:31.174 [info] <0.66.0> Starting Boss in development mode....
+
+2013-10-07 21:00:31.174 [info] <0.66.0> Starting master services on 'chipchat@Russells-MacBook-Pro-2'
+
+2013-10-07 21:00:31.175 [info] <0.7.0> Application tinymq started on node 'chipchat@Russells-MacBook-Pro-2'
+2013-10-07 21:00:31.175 [info] <0.66.0> SSL:[]
+
+2013-10-07 21:00:31.175 [info] <0.7.0> Application boss started on node 'chipchat@Russells-MacBook-Pro-2'
+2013-10-07 21:00:31.175 [info] <0.156.0> Loading routes from "/Users/rsslldnphy/Code/chipchat/priv/chipchat.routes" ....
+2013-10-07 21:00:39.587 [info] <0.156.0> Loading routes from "/Users/rsslldnphy/Code/chipchat/priv/chipchat.routes" ....
+2013-10-07 21:00:39.591 [error] <0.142.0> GET /greeting/hello [chipchat] 404 3ms
+2013-10-07 21:02:16.454 [info] <0.156.0> Loading routes from "/Users/rsslldnphy/Code/chipchat/priv/chipchat.routes" ....
+2013-10-07 21:02:16.460 [error] <0.156.0> gen_server <0.156.0> terminated with reason: {'module could not be loaded',[{'Elixir-Chipchat-ChatController',module_info,[attributes],[]},{boss_router_controller,default_action,2,[{file,"src/boss/boss_router_controller.erl"},{line,176}]},{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,68}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2013-10-07 21:02:16.462 [error] <0.156.0> CRASH REPORT Process <0.156.0> with 0 neighbours exited with reason: call to undefined function 'Elixir-Chipchat-ChatController':module_info(attributes) in gen_server:terminate/6 line 744
+2013-10-07 21:02:16.462 [error] <0.155.0> Supervisor boss_router_sup had child router_controller started with boss_router_controller:start_link([{application,chipchat},{controllers,[]}]) at <0.156.0> exit with reason call to undefined function 'Elixir-Chipchat-ChatController':module_info(attributes) in context child_terminated
+2013-10-07 21:02:16.463 [error] <0.142.0> CRASH REPORT Process <0.142.0> with 0 neighbours exited with reason: {{undef,[{'Elixir-Chipchat-ChatController',module_info,[attributes],[]},{boss_router_controller,default_action,2,[{file,"src/boss/boss_router_controller.erl"},{line,176}]},{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,68}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},{gen_server,call,[<0.156.0>,{route,"/chat"}]}} in gen_server:call/2 line 180
+2013-10-07 21:02:16.464 [info] <0.170.0> Loading routes from "/Users/rsslldnphy/Code/chipchat/priv/chipchat.routes" ....
+2013-10-07 21:02:16.464 [info] <0.170.0> Loading routes from "/Users/rsslldnphy/Code/chipchat/priv/chipchat.routes" ....
+2013-10-07 21:02:16.469 [error] <0.170.0> gen_server <0.170.0> terminated with reason: {'module could not be loaded',[{'Elixir-Chipchat-ChatController',module_info,[attributes],[]},{boss_router_controller,default_action,2,[{file,"src/boss/boss_router_controller.erl"},{line,176}]},{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,68}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2013-10-07 21:02:16.470 [error] <0.170.0> CRASH REPORT Process <0.170.0> with 0 neighbours exited with reason: call to undefined function 'Elixir-Chipchat-ChatController':module_info(attributes) in gen_server:terminate/6 line 744
+2013-10-07 21:02:16.471 [error] <0.155.0> Supervisor boss_router_sup had child router_controller started with boss_router_controller:start_link([{application,chipchat},{controllers,[]}]) at <0.170.0> exit with reason call to undefined function 'Elixir-Chipchat-ChatController':module_info(attributes) in context child_terminated
+2013-10-07 21:02:16.472 [error] <0.144.0> CRASH REPORT Process <0.144.0> with 0 neighbours exited with reason: {{undef,[{'Elixir-Chipchat-ChatController',module_info,[attributes],[]},{boss_router_controller,default_action,2,[{file,"src/boss/boss_router_controller.erl"},{line,176}]},{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,68}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},{gen_server,call,[<0.170.0>,{route,"/chat"}]}} in gen_server:call/2 line 180
+2013-10-07 21:02:16.472 [info] <0.174.0> Loading routes from "/Users/rsslldnphy/Code/chipchat/priv/chipchat.routes" ....
+2013-10-07 21:02:34.574 [info] <0.7.0> Application lager started on node 'chipchat@Russells-MacBook-Pro-2'
+2013-10-07 21:02:34.580 [info] <0.7.0> Application elixir started on node 'chipchat@Russells-MacBook-Pro-2'
+2013-10-07 21:02:36.578 [info] <0.66.0> Starting Boss in development mode....
+
+2013-10-07 21:02:36.578 [info] <0.66.0> Starting master services on 'chipchat@Russells-MacBook-Pro-2'
+
+2013-10-07 21:02:36.579 [info] <0.7.0> Application tinymq started on node 'chipchat@Russells-MacBook-Pro-2'
+2013-10-07 21:02:36.579 [info] <0.66.0> SSL:[]
+
+2013-10-07 21:02:36.579 [info] <0.7.0> Application boss started on node 'chipchat@Russells-MacBook-Pro-2'
+2013-10-07 21:02:36.579 [info] <0.156.0> Loading routes from "/Users/rsslldnphy/Code/chipchat/priv/chipchat.routes" ....
+2013-10-07 21:03:19.958 [info] <0.156.0> Loading routes from "/Users/rsslldnphy/Code/chipchat/priv/chipchat.routes" ....
+2013-10-07 21:03:19.959 [error] <0.141.0> GET / [chipchat] 404 0ms
+2013-10-07 21:03:23.547 [info] <0.156.0> Loading routes from "/Users/rsslldnphy/Code/chipchat/priv/chipchat.routes" ....
+2013-10-07 21:03:23.608 [error] <0.141.0> GET /chat [chipchat] 404 61ms
+2013-10-07 21:03:31.679 [info] <0.156.0> Loading routes from "/Users/rsslldnphy/Code/chipchat/priv/chipchat.routes" ....
+2013-10-07 21:03:31.736 [error] <0.141.0> GET /chat/index [chipchat] 404 56ms
+2013-10-07 21:05:05.403 [info] <0.156.0> Loading routes from "/Users/rsslldnphy/Code/chipchat/priv/chipchat.routes" ....
+2013-10-07 21:05:05.429 [error] <0.141.0> {{'Elixir-CompileError','__exception__',<<"/Users/rsslldnphy/Code/chipchat/src/controller/chat_controller.ex">>,4,<<"function get/2 undefined">>},[{elixir_parser,yecctoken_end_location,1,[{file,"/usr/local/Cellar/erlang/R16B02/lib/erlang/lib/parsetools-2.0.10/include/yeccpre.hrl"},{line,128}]},{elixir_parser,yeccpars1,7,[{file,"/usr/local/Cellar/erlang/R16B02/lib/erlang/lib/parsetools-2.0.10/include/yeccpre.hrl"},{line,113}]},{elixir_parser,yeccpars0,5,[{file,"/usr/local/Cellar/erlang/R16B02/lib/erlang/lib/parsetools-2.0.10/include/yeccpre.hrl"},{line,56}]},{elixir_translator,forms,4,[{file,"src/elixir_translator.erl"},{line,17}]},{elixir_translator,'forms!',4,[{file,"src/elixir_translator.erl"},{line,27}]},{elixir_compiler,string,2,[{file,"src/elixir_compiler.erl"},{line,29}]},{boss_elixir_compiler,compile,2,[{file,"src/boss/boss_elixir_compiler.erl"},{line,12}]},{boss_load,compile_and_accumulate_errors,5,[{file,"src/boss/boss_load.erl"},{line,146}]}]}
+2013-10-07 21:05:05.430 [error] <0.141.0> GET /chat/index [chipchat] 500 26ms
+2013-10-07 21:05:08.125 [info] <0.156.0> Loading routes from "/Users/rsslldnphy/Code/chipchat/priv/chipchat.routes" ....
+2013-10-07 21:05:08.148 [error] <0.141.0> {{'Elixir-CompileError','__exception__',<<"/Users/rsslldnphy/Code/chipchat/src/controller/chat_controller.ex">>,4,<<"function get/2 undefined">>},[{elixir_parser,yecctoken_end_location,1,[{file,"/usr/local/Cellar/erlang/R16B02/lib/erlang/lib/parsetools-2.0.10/include/yeccpre.hrl"},{line,128}]},{elixir_parser,yeccpars1,7,[{file,"/usr/local/Cellar/erlang/R16B02/lib/erlang/lib/parsetools-2.0.10/include/yeccpre.hrl"},{line,113}]},{elixir_parser,yeccpars0,5,[{file,"/usr/local/Cellar/erlang/R16B02/lib/erlang/lib/parsetools-2.0.10/include/yeccpre.hrl"},{line,56}]},{elixir_translator,forms,4,[{file,"src/elixir_translator.erl"},{line,17}]},{elixir_translator,'forms!',4,[{file,"src/elixir_translator.erl"},{line,27}]},{elixir_compiler,string,2,[{file,"src/elixir_compiler.erl"},{line,29}]},{boss_elixir_compiler,compile,2,[{file,"src/boss/boss_elixir_compiler.erl"},{line,12}]},{boss_load,compile_and_accumulate_errors,5,[{file,"src/boss/boss_load.erl"},{line,146}]}]}
+2013-10-07 21:05:08.149 [error] <0.141.0> GET /chat [chipchat] 500 24ms
+2013-10-07 21:05:22.991 [info] <0.7.0> Application lager started on node 'chipchat@Russells-MacBook-Pro-2'
+2013-10-07 21:05:22.997 [info] <0.7.0> Application elixir started on node 'chipchat@Russells-MacBook-Pro-2'
+2013-10-07 21:05:24.995 [info] <0.66.0> Starting Boss in development mode....
+
+2013-10-07 21:05:24.995 [info] <0.66.0> Starting master services on 'chipchat@Russells-MacBook-Pro-2'
+
+2013-10-07 21:05:24.995 [info] <0.7.0> Application tinymq started on node 'chipchat@Russells-MacBook-Pro-2'
+2013-10-07 21:05:24.995 [info] <0.66.0> SSL:[]
+
+2013-10-07 21:05:24.995 [info] <0.7.0> Application boss started on node 'chipchat@Russells-MacBook-Pro-2'
+2013-10-07 21:05:24.995 [info] <0.156.0> Loading routes from "/Users/rsslldnphy/Code/chipchat/priv/chipchat.routes" ....
+2013-10-07 21:05:25.005 [info] <0.7.0> Application elixir exited with reason: stopped
+2013-10-07 21:05:25.008 [error] <0.66.0> gen_server boss_web terminated with reason: {'Elixir-CompileError','__exception__',<<"/Users/rsslldnphy/Code/chipchat/src/controller/chat_controller.ex">>,4,<<"function get/2 undefined">>} in elixir_parser:yecctoken_end_location/1 line 128
+2013-10-07 21:05:27.010 [error] <0.66.0> CRASH REPORT Process boss_web with 0 neighbours exited with reason: {'Elixir-CompileError','__exception__',<<"/Users/rsslldnphy/Code/chipchat/src/controller/chat_controller.ex">>,4,<<"function get/2 undefined">>} in elixir_parser:yecctoken_end_location/1 line 128 in gen_server:terminate/6 line 744
+2013-10-07 21:05:27.017 [error] <0.65.0> Supervisor boss_sup had child boss_web_controller started with boss_web_controller:start_link([{ip,"0.0.0.0"},{port,8001}]) at <0.66.0> exit with reason {'Elixir-CompileError','__exception__',<<"/Users/rsslldnphy/Code/chipchat/src/controller/chat_controller.ex">>,4,<<"function get/2 undefined">>} in elixir_parser:yecctoken_end_location/1 line 128 in context child_terminated
+2013-10-07 21:05:27.018 [error] <0.137.0> gen_server boss_service_sup terminated with reason: {'Elixir-CompileError','__exception__',<<"/Users/rsslldnphy/Code/chipchat/src/controller/chat_controller.ex">>,4,<<"function get/2 undefined">>} in elixir_parser:yecctoken_end_location/1 line 128
+2013-10-07 21:05:27.018 [error] <0.137.0> CRASH REPORT Process <0.137.0> with 0 neighbours exited with reason: {'Elixir-CompileError','__exception__',<<"/Users/rsslldnphy/Code/chipchat/src/controller/chat_controller.ex">>,4,<<"function get/2 undefined">>} in elixir_parser:yecctoken_end_location/1 line 128 in gen_server:terminate/6 line 744
+2013-10-07 21:05:27.019 [error] <0.139.0> CRASH REPORT Process <0.139.0> with 0 neighbours exited with reason: {{{'Elixir-CompileError','__exception__',<<"/Users/rsslldnphy/Code/chipchat/src/controller/chat_controller.ex">>,4,<<"function get/2 undefined">>},[{elixir_parser,yecctoken_end_location,1,[{file,"/usr/local/Cellar/erlang/R16B02/lib/erlang/lib/parsetools-2.0.10/include/yeccpre.hrl"},{line,128}]},{elixir_parser,yeccpars1,7,[{file,"/usr/local/Cellar/erlang/R16B02/lib/erlang/lib/parsetools-2.0.10/include/yeccpre.hrl"},{line,113}]},{elixir_parser,yeccpars0,5,[{file,"/usr/local/Cellar/erlang/R16..."},...]},...]},...} in gen_server:call/2 line 180
+2013-10-07 21:05:27.020 [error] <0.90.0> gen_server boss_db_sup terminated with reason: {'Elixir-CompileError','__exception__',<<"/Users/rsslldnphy/Code/chipchat/src/controller/chat_controller.ex">>,4,<<"function get/2 undefined">>} in elixir_parser:yecctoken_end_location/1 line 128
+2013-10-07 21:05:27.021 [error] <0.90.0> CRASH REPORT Process boss_db_sup with 0 neighbours exited with reason: {'Elixir-CompileError','__exception__',<<"/Users/rsslldnphy/Code/chipchat/src/controller/chat_controller.ex">>,4,<<"function get/2 undefined">>} in elixir_parser:yecctoken_end_location/1 line 128 in gen_server:terminate/6 line 744
+2013-10-07 21:05:27.021 [error] <0.131.0> gen_server boss_news_sup terminated with reason: {'Elixir-CompileError','__exception__',<<"/Users/rsslldnphy/Code/chipchat/src/controller/chat_controller.ex">>,4,<<"function get/2 undefined">>} in elixir_parser:yecctoken_end_location/1 line 128
+2013-10-07 21:05:27.022 [error] <0.131.0> CRASH REPORT Process <0.131.0> with 0 neighbours exited with reason: {'Elixir-CompileError','__exception__',<<"/Users/rsslldnphy/Code/chipchat/src/controller/chat_controller.ex">>,4,<<"function get/2 undefined">>} in elixir_parser:yecctoken_end_location/1 line 128 in gen_server:terminate/6 line 744
+2013-10-07 21:05:27.023 [error] <0.88.0> gen_server boss_db_mock_sup terminated with reason: {'Elixir-CompileError','__exception__',<<"/Users/rsslldnphy/Code/chipchat/src/controller/chat_controller.ex">>,4,<<"function get/2 undefined">>} in elixir_parser:yecctoken_end_location/1 line 128
+2013-10-07 21:05:27.023 [error] <0.88.0> CRASH REPORT Process <0.88.0> with 0 neighbours exited with reason: {'Elixir-CompileError','__exception__',<<"/Users/rsslldnphy/Code/chipchat/src/controller/chat_controller.ex">>,4,<<"function get/2 undefined">>} in elixir_parser:yecctoken_end_location/1 line 128 in gen_server:terminate/6 line 744
+2013-10-07 21:05:27.024 [error] <0.100.0> gen_server boss_session_sup terminated with reason: {'Elixir-CompileError','__exception__',<<"/Users/rsslldnphy/Code/chipchat/src/controller/chat_controller.ex">>,4,<<"function get/2 undefined">>} in elixir_parser:yecctoken_end_location/1 line 128
+2013-10-07 21:05:27.024 [error] <0.123.0> gen_server boss_mq_sup terminated with reason: {'Elixir-CompileError','__exception__',<<"/Users/rsslldnphy/Code/chipchat/src/controller/chat_controller.ex">>,4,<<"function get/2 undefined">>} in elixir_parser:yecctoken_end_location/1 line 128
+2013-10-07 21:05:27.025 [error] <0.100.0> CRASH REPORT Process boss_session_sup with 0 neighbours exited with reason: {'Elixir-CompileError','__exception__',<<"/Users/rsslldnphy/Code/chipchat/src/controller/chat_controller.ex">>,4,<<"function get/2 undefined">>} in elixir_parser:yecctoken_end_location/1 line 128 in gen_server:terminate/6 line 744
+2013-10-07 21:05:27.025 [error] <0.98.0> gen_server boss_session_mock_sup terminated with reason: {'Elixir-CompileError','__exception__',<<"/Users/rsslldnphy/Code/chipchat/src/controller/chat_controller.ex">>,4,<<"function get/2 undefined">>} in elixir_parser:yecctoken_end_location/1 line 128
+2013-10-07 21:05:27.026 [error] <0.123.0> CRASH REPORT Process <0.123.0> with 0 neighbours exited with reason: {'Elixir-CompileError','__exception__',<<"/Users/rsslldnphy/Code/chipchat/src/controller/chat_controller.ex">>,4,<<"function get/2 undefined">>} in elixir_parser:yecctoken_end_location/1 line 128 in gen_server:terminate/6 line 744
+2013-10-07 21:05:27.026 [error] <0.98.0> CRASH REPORT Process <0.98.0> with 0 neighbours exited with reason: {'Elixir-CompileError','__exception__',<<"/Users/rsslldnphy/Code/chipchat/src/controller/chat_controller.ex">>,4,<<"function get/2 undefined">>} in elixir_parser:yecctoken_end_location/1 line 128 in gen_server:terminate/6 line 744
+2013-10-07 21:05:27.027 [error] <0.155.0> gen_server <0.155.0> terminated with reason: {'Elixir-CompileError','__exception__',<<"/Users/rsslldnphy/Code/chipchat/src/controller/chat_controller.ex">>,4,<<"function get/2 undefined">>} in elixir_parser:yecctoken_end_location/1 line 128
+2013-10-07 21:05:27.027 [error] <0.158.0> gen_server <0.158.0> terminated with reason: {'Elixir-CompileError','__exception__',<<"/Users/rsslldnphy/Code/chipchat/src/controller/chat_controller.ex">>,4,<<"function get/2 undefined">>} in elixir_parser:yecctoken_end_location/1 line 128
+2013-10-07 21:05:27.028 [error] <0.155.0> CRASH REPORT Process <0.155.0> with 0 neighbours exited with reason: {'Elixir-CompileError','__exception__',<<"/Users/rsslldnphy/Code/chipchat/src/controller/chat_controller.ex">>,4,<<"function get/2 undefined">>} in elixir_parser:yecctoken_end_location/1 line 128 in gen_server:terminate/6 line 744
+2013-10-07 21:05:27.029 [error] <0.133.0> gen_server boss_mail_sup terminated with reason: {'Elixir-CompileError','__exception__',<<"/Users/rsslldnphy/Code/chipchat/src/controller/chat_controller.ex">>,4,<<"function get/2 undefined">>} in elixir_parser:yecctoken_end_location/1 line 128
+2013-10-07 21:05:27.029 [error] <0.133.0> CRASH REPORT Process boss_mail_sup with 0 neighbours exited with reason: {'Elixir-CompileError','__exception__',<<"/Users/rsslldnphy/Code/chipchat/src/controller/chat_controller.ex">>,4,<<"function get/2 undefined">>} in elixir_parser:yecctoken_end_location/1 line 128 in gen_server:terminate/6 line 744
+2013-10-07 21:05:27.030 [error] <0.102.0> Supervisor poolboy_sup had child boss_session_controller started with boss_session_controller:start_link([{size,20},{max_overflow,40},{adapter,boss_session_adapter_mock},{session_exp_time,525600},{session_key,...}]) at undefined exit with reason shutdown in context shutdown_error
+2013-10-07 21:05:27.030 [error] <0.158.0> CRASH REPORT Process <0.158.0> with 0 neighbours exited with reason: {'Elixir-CompileError','__exception__',<<"/Users/rsslldnphy/Code/chipchat/src/controller/chat_controller.ex">>,4,<<"function get/2 undefined">>} in elixir_parser:yecctoken_end_location/1 line 128 in gen_server:terminate/6 line 744
+2013-10-07 21:05:27.031 [info] <0.7.0> Application elixir started on node 'chipchat@Russells-MacBook-Pro-2'
+2013-10-07 21:05:27.032 [info] <0.166.0> Starting Boss in development mode....
+
+2013-10-07 21:05:27.033 [info] <0.166.0> Starting master services on 'chipchat@Russells-MacBook-Pro-2'
+
+2013-10-07 21:05:27.033 [info] <0.166.0> SSL:[]
+
+2013-10-07 21:05:27.033 [info] <0.235.0> Loading routes from "/Users/rsslldnphy/Code/chipchat/priv/chipchat.routes" ....
+2013-10-07 21:05:27.034 [info] <0.7.0> Application elixir exited with reason: stopped
+2013-10-07 21:05:27.035 [error] <0.166.0> gen_server boss_web terminated with reason: {'Elixir-CompileError','__exception__',<<"/Users/rsslldnphy/Code/chipchat/src/controller/chat_controller.ex">>,4,<<"function get/2 undefined">>} in elixir_parser:yecctoken_end_location/1 line 128
+2013-10-07 21:05:29.036 [error] <0.166.0> CRASH REPORT Process boss_web with 0 neighbours exited with reason: {'Elixir-CompileError','__exception__',<<"/Users/rsslldnphy/Code/chipchat/src/controller/chat_controller.ex">>,4,<<"function get/2 undefined">>} in elixir_parser:yecctoken_end_location/1 line 128 in gen_server:terminate/6 line 744
+2013-10-07 21:05:29.043 [error] <0.65.0> Supervisor boss_sup had child boss_web_controller started with boss_web_controller:start_link([{ip,"0.0.0.0"},{port,8001}]) at <0.166.0> exit with reason {'Elixir-CompileError','__exception__',<<"/Users/rsslldnphy/Code/chipchat/src/controller/chat_controller.ex">>,4,<<"function get/2 undefined">>} in elixir_parser:yecctoken_end_location/1 line 128 in context child_terminated
+2013-10-07 21:05:29.044 [error] <0.216.0> gen_server boss_service_sup terminated with reason: {'Elixir-CompileError','__exception__',<<"/Users/rsslldnphy/Code/chipchat/src/controller/chat_controller.ex">>,4,<<"function get/2 undefined">>} in elixir_parser:yecctoken_end_location/1 line 128
+2013-10-07 21:05:29.044 [error] <0.216.0> CRASH REPORT Process <0.216.0> with 0 neighbours exited with reason: {'Elixir-CompileError','__exception__',<<"/Users/rsslldnphy/Code/chipchat/src/controller/chat_controller.ex">>,4,<<"function get/2 undefined">>} in elixir_parser:yecctoken_end_location/1 line 128 in gen_server:terminate/6 line 744
+2013-10-07 21:05:29.045 [error] <0.140.0> CRASH REPORT Process <0.140.0> with 0 neighbours exited with reason: {{{'Elixir-CompileError','__exception__',<<"/Users/rsslldnphy/Code/chipchat/src/controller/chat_controller.ex">>,4,<<"function get/2 undefined">>},[{elixir_parser,yecctoken_end_location,1,[{file,"/usr/local/Cellar/erlang/R16B02/lib/erlang/lib/parsetools-2.0.10/include/yeccpre.hrl"},{line,128}]},{elixir_parser,yeccpars1,7,[{file,"/usr/local/Cellar/erlang/R16B02/lib/erlang/lib/parsetools-2.0.10/include/yeccpre.hrl"},{line,113}]},{elixir_parser,yeccpars0,5,[{file,"/usr/local/Cellar/erlang/R16..."},...]},...]},...} in gen_server:call/2 line 180
+2013-10-07 21:05:29.046 [error] <0.237.0> gen_server <0.237.0> terminated with reason: {'Elixir-CompileError','__exception__',<<"/Users/rsslldnphy/Code/chipchat/src/controller/chat_controller.ex">>,4,<<"function get/2 undefined">>} in elixir_parser:yecctoken_end_location/1 line 128
+2013-10-07 21:05:29.047 [error] <0.237.0> CRASH REPORT Process <0.237.0> with 0 neighbours exited with reason: {'Elixir-CompileError','__exception__',<<"/Users/rsslldnphy/Code/chipchat/src/controller/chat_controller.ex">>,4,<<"function get/2 undefined">>} in elixir_parser:yecctoken_end_location/1 line 128 in gen_server:terminate/6 line 744
+2013-10-07 21:05:29.047 [error] <0.173.0> gen_server boss_db_mock_sup terminated with reason: {'Elixir-CompileError','__exception__',<<"/Users/rsslldnphy/Code/chipchat/src/controller/chat_controller.ex">>,4,<<"function get/2 undefined">>} in elixir_parser:yecctoken_end_location/1 line 128
+2013-10-07 21:05:29.048 [error] <0.175.0> gen_server boss_db_sup terminated with reason: {'Elixir-CompileError','__exception__',<<"/Users/rsslldnphy/Code/chipchat/src/controller/chat_controller.ex">>,4,<<"function get/2 undefined">>} in elixir_parser:yecctoken_end_location/1 line 128
+2013-10-07 21:05:29.048 [error] <0.175.0> CRASH REPORT Process boss_db_sup with 0 neighbours exited with reason: {'Elixir-CompileError','__exception__',<<"/Users/rsslldnphy/Code/chipchat/src/controller/chat_controller.ex">>,4,<<"function get/2 undefined">>} in elixir_parser:yecctoken_end_location/1 line 128 in gen_server:terminate/6 line 744
+2013-10-07 21:05:29.049 [error] <0.173.0> CRASH REPORT Process <0.173.0> with 0 neighbours exited with reason: {'Elixir-CompileError','__exception__',<<"/Users/rsslldnphy/Code/chipchat/src/controller/chat_controller.ex">>,4,<<"function get/2 undefined">>} in elixir_parser:yecctoken_end_location/1 line 128 in gen_server:terminate/6 line 744
+2013-10-07 21:05:29.050 [error] <0.187.0> gen_server boss_session_sup terminated with reason: {'Elixir-CompileError','__exception__',<<"/Users/rsslldnphy/Code/chipchat/src/controller/chat_controller.ex">>,4,<<"function get/2 undefined">>} in elixir_parser:yecctoken_end_location/1 line 128
+2013-10-07 21:05:29.050 [error] <0.210.0> gen_server boss_mq_sup terminated with reason: {'Elixir-CompileError','__exception__',<<"/Users/rsslldnphy/Code/chipchat/src/controller/chat_controller.ex">>,4,<<"function get/2 undefined">>} in elixir_parser:yecctoken_end_location/1 line 128
+2013-10-07 21:05:29.051 [error] <0.189.0> Supervisor poolboy_sup had child boss_session_controller started with boss_session_controller:start_link([{size,20},{max_overflow,40},{adapter,boss_session_adapter_mock},{session_exp_time,525600},{session_key,...}]) at undefined exit with reason shutdown in context shutdown_error
+2013-10-07 21:05:29.051 [error] <0.183.0> gen_server boss_session_mock_sup terminated with reason: {'Elixir-CompileError','__exception__',<<"/Users/rsslldnphy/Code/chipchat/src/controller/chat_controller.ex">>,4,<<"function get/2 undefined">>} in elixir_parser:yecctoken_end_location/1 line 128
+2013-10-07 21:05:29.052 [error] <0.187.0> CRASH REPORT Process boss_session_sup with 0 neighbours exited with reason: {'Elixir-CompileError','__exception__',<<"/Users/rsslldnphy/Code/chipchat/src/controller/chat_controller.ex">>,4,<<"function get/2 undefined">>} in elixir_parser:yecctoken_end_location/1 line 128 in gen_server:terminate/6 line 744
+2013-10-07 21:05:29.052 [error] <0.210.0> CRASH REPORT Process <0.210.0> with 0 neighbours exited with reason: {'Elixir-CompileError','__exception__',<<"/Users/rsslldnphy/Code/chipchat/src/controller/chat_controller.ex">>,4,<<"function get/2 undefined">>} in elixir_parser:yecctoken_end_location/1 line 128 in gen_server:terminate/6 line 744
+2013-10-07 21:05:29.053 [error] <0.212.0> gen_server boss_news_sup terminated with reason: {'Elixir-CompileError','__exception__',<<"/Users/rsslldnphy/Code/chipchat/src/controller/chat_controller.ex">>,4,<<"function get/2 undefined">>} in elixir_parser:yecctoken_end_location/1 line 128
+2013-10-07 21:05:29.053 [error] <0.183.0> CRASH REPORT Process <0.183.0> with 0 neighbours exited with reason: {'Elixir-CompileError','__exception__',<<"/Users/rsslldnphy/Code/chipchat/src/controller/chat_controller.ex">>,4,<<"function get/2 undefined">>} in elixir_parser:yecctoken_end_location/1 line 128 in gen_server:terminate/6 line 744
+2013-10-07 21:05:29.054 [error] <0.212.0> CRASH REPORT Process <0.212.0> with 0 neighbours exited with reason: {'Elixir-CompileError','__exception__',<<"/Users/rsslldnphy/Code/chipchat/src/controller/chat_controller.ex">>,4,<<"function get/2 undefined">>} in elixir_parser:yecctoken_end_location/1 line 128 in gen_server:terminate/6 line 744
+2013-10-07 21:05:29.054 [error] <0.234.0> gen_server <0.234.0> terminated with reason: {'Elixir-CompileError','__exception__',<<"/Users/rsslldnphy/Code/chipchat/src/controller/chat_controller.ex">>,4,<<"function get/2 undefined">>} in elixir_parser:yecctoken_end_location/1 line 128
+2013-10-07 21:05:29.055 [error] <0.214.0> gen_server boss_mail_sup terminated with reason: {'Elixir-CompileError','__exception__',<<"/Users/rsslldnphy/Code/chipchat/src/controller/chat_controller.ex">>,4,<<"function get/2 undefined">>} in elixir_parser:yecctoken_end_location/1 line 128
+2013-10-07 21:05:29.055 [error] <0.234.0> CRASH REPORT Process <0.234.0> with 0 neighbours exited with reason: {'Elixir-CompileError','__exception__',<<"/Users/rsslldnphy/Code/chipchat/src/controller/chat_controller.ex">>,4,<<"function get/2 undefined">>} in elixir_parser:yecctoken_end_location/1 line 128 in gen_server:terminate/6 line 744
+2013-10-07 21:05:29.056 [error] <0.214.0> CRASH REPORT Process boss_mail_sup with 0 neighbours exited with reason: {'Elixir-CompileError','__exception__',<<"/Users/rsslldnphy/Code/chipchat/src/controller/chat_controller.ex">>,4,<<"function get/2 undefined">>} in elixir_parser:yecctoken_end_location/1 line 128 in gen_server:terminate/6 line 744
+2013-10-07 21:05:29.056 [info] <0.7.0> Application elixir started on node 'chipchat@Russells-MacBook-Pro-2'
+2013-10-07 21:05:29.056 [info] <0.244.0> Starting Boss in development mode....
+
+2013-10-07 21:05:29.056 [info] <0.244.0> Starting master services on 'chipchat@Russells-MacBook-Pro-2'
+
+2013-10-07 21:05:29.056 [info] <0.244.0> SSL:[]
+
+2013-10-07 21:05:29.056 [info] <0.315.0> Loading routes from "/Users/rsslldnphy/Code/chipchat/priv/chipchat.routes" ....
+2013-10-07 21:05:29.057 [info] <0.7.0> Application elixir exited with reason: stopped
+2013-10-07 21:05:29.058 [error] <0.244.0> gen_server boss_web terminated with reason: {'Elixir-CompileError','__exception__',<<"/Users/rsslldnphy/Code/chipchat/src/controller/chat_controller.ex">>,4,<<"function get/2 undefined">>} in elixir_parser:yecctoken_end_location/1 line 128
+2013-10-07 21:05:31.059 [error] <0.244.0> CRASH REPORT Process boss_web with 0 neighbours exited with reason: {'Elixir-CompileError','__exception__',<<"/Users/rsslldnphy/Code/chipchat/src/controller/chat_controller.ex">>,4,<<"function get/2 undefined">>} in elixir_parser:yecctoken_end_location/1 line 128 in gen_server:terminate/6 line 744
+2013-10-07 21:05:31.066 [error] <0.65.0> Supervisor boss_sup had child boss_web_controller started with boss_web_controller:start_link([{ip,"0.0.0.0"},{port,8001}]) at <0.244.0> exit with reason {'Elixir-CompileError','__exception__',<<"/Users/rsslldnphy/Code/chipchat/src/controller/chat_controller.ex">>,4,<<"function get/2 undefined">>} in elixir_parser:yecctoken_end_location/1 line 128 in context child_terminated
+2013-10-07 21:05:31.067 [error] <0.296.0> gen_server boss_service_sup terminated with reason: {'Elixir-CompileError','__exception__',<<"/Users/rsslldnphy/Code/chipchat/src/controller/chat_controller.ex">>,4,<<"function get/2 undefined">>} in elixir_parser:yecctoken_end_location/1 line 128
+2013-10-07 21:05:31.068 [error] <0.218.0> CRASH REPORT Process <0.218.0> with 0 neighbours exited with reason: {{{'Elixir-CompileError','__exception__',<<"/Users/rsslldnphy/Code/chipchat/src/controller/chat_controller.ex">>,4,<<"function get/2 undefined">>},[{elixir_parser,yecctoken_end_location,1,[{file,"/usr/local/Cellar/erlang/R16B02/lib/erlang/lib/parsetools-2.0.10/include/yeccpre.hrl"},{line,128}]},{elixir_parser,yeccpars1,7,[{file,"/usr/local/Cellar/erlang/R16B02/lib/erlang/lib/parsetools-2.0.10/include/yeccpre.hrl"},{line,113}]},{elixir_parser,yeccpars0,5,[{file,"/usr/local/Cellar/erlang/R16..."},...]},...]},...} in gen_server:call/2 line 180
+2013-10-07 21:05:31.069 [error] <0.296.0> CRASH REPORT Process <0.296.0> with 0 neighbours exited with reason: {'Elixir-CompileError','__exception__',<<"/Users/rsslldnphy/Code/chipchat/src/controller/chat_controller.ex">>,4,<<"function get/2 undefined">>} in elixir_parser:yecctoken_end_location/1 line 128 in gen_server:terminate/6 line 744
+2013-10-07 21:05:31.071 [error] <0.294.0> gen_server boss_mail_sup terminated with reason: {'Elixir-CompileError','__exception__',<<"/Users/rsslldnphy/Code/chipchat/src/controller/chat_controller.ex">>,4,<<"function get/2 undefined">>} in elixir_parser:yecctoken_end_location/1 line 128
+2013-10-07 21:05:31.072 [error] <0.294.0> CRASH REPORT Process boss_mail_sup with 0 neighbours exited with reason: {'Elixir-CompileError','__exception__',<<"/Users/rsslldnphy/Code/chipchat/src/controller/chat_controller.ex">>,4,<<"function get/2 undefined">>} in elixir_parser:yecctoken_end_location/1 line 128 in gen_server:terminate/6 line 744
+2013-10-07 21:05:31.072 [error] <0.267.0> gen_server boss_session_sup terminated with reason: {'Elixir-CompileError','__exception__',<<"/Users/rsslldnphy/Code/chipchat/src/controller/chat_controller.ex">>,4,<<"function get/2 undefined">>} in elixir_parser:yecctoken_end_location/1 line 128
+2013-10-07 21:05:31.073 [error] <0.267.0> CRASH REPORT Process boss_session_sup with 0 neighbours exited with reason: {'Elixir-CompileError','__exception__',<<"/Users/rsslldnphy/Code/chipchat/src/controller/chat_controller.ex">>,4,<<"function get/2 undefined">>} in elixir_parser:yecctoken_end_location/1 line 128 in gen_server:terminate/6 line 744
+2013-10-07 21:05:31.073 [error] <0.261.0> gen_server boss_session_mock_sup terminated with reason: {'Elixir-CompileError','__exception__',<<"/Users/rsslldnphy/Code/chipchat/src/controller/chat_controller.ex">>,4,<<"function get/2 undefined">>} in elixir_parser:yecctoken_end_location/1 line 128
+2013-10-07 21:05:31.074 [error] <0.261.0> CRASH REPORT Process <0.261.0> with 0 neighbours exited with reason: {'Elixir-CompileError','__exception__',<<"/Users/rsslldnphy/Code/chipchat/src/controller/chat_controller.ex">>,4,<<"function get/2 undefined">>} in elixir_parser:yecctoken_end_location/1 line 128 in gen_server:terminate/6 line 744
+2013-10-07 21:05:31.075 [error] <0.317.0> gen_server <0.317.0> terminated with reason: {'Elixir-CompileError','__exception__',<<"/Users/rsslldnphy/Code/chipchat/src/controller/chat_controller.ex">>,4,<<"function get/2 undefined">>} in elixir_parser:yecctoken_end_location/1 line 128
+2013-10-07 21:05:31.076 [error] <0.314.0> gen_server <0.314.0> terminated with reason: {'Elixir-CompileError','__exception__',<<"/Users/rsslldnphy/Code/chipchat/src/controller/chat_controller.ex">>,4,<<"function get/2 undefined">>} in elixir_parser:yecctoken_end_location/1 line 128
+2013-10-07 21:05:31.076 [error] <0.317.0> CRASH REPORT Process <0.317.0> with 0 neighbours exited with reason: {'Elixir-CompileError','__exception__',<<"/Users/rsslldnphy/Code/chipchat/src/controller/chat_controller.ex">>,4,<<"function get/2 undefined">>} in elixir_parser:yecctoken_end_location/1 line 128 in gen_server:terminate/6 line 744
+2013-10-07 21:05:31.077 [error] <0.314.0> CRASH REPORT Process <0.314.0> with 0 neighbours exited with reason: {'Elixir-CompileError','__exception__',<<"/Users/rsslldnphy/Code/chipchat/src/controller/chat_controller.ex">>,4,<<"function get/2 undefined">>} in elixir_parser:yecctoken_end_location/1 line 128 in gen_server:terminate/6 line 744
+2013-10-07 21:05:31.077 [error] <0.292.0> gen_server boss_news_sup terminated with reason: {'Elixir-CompileError','__exception__',<<"/Users/rsslldnphy/Code/chipchat/src/controller/chat_controller.ex">>,4,<<"function get/2 undefined">>} in elixir_parser:yecctoken_end_location/1 line 128
+2013-10-07 21:05:31.078 [error] <0.253.0> gen_server boss_db_sup terminated with reason: {'Elixir-CompileError','__exception__',<<"/Users/rsslldnphy/Code/chipchat/src/controller/chat_controller.ex">>,4,<<"function get/2 undefined">>} in elixir_parser:yecctoken_end_location/1 line 128
+2013-10-07 21:05:31.078 [error] <0.292.0> CRASH REPORT Process <0.292.0> with 0 neighbours exited with reason: {'Elixir-CompileError','__exception__',<<"/Users/rsslldnphy/Code/chipchat/src/controller/chat_controller.ex">>,4,<<"function get/2 undefined">>} in elixir_parser:yecctoken_end_location/1 line 128 in gen_server:terminate/6 line 744
+2013-10-07 21:05:31.079 [error] <0.253.0> CRASH REPORT Process boss_db_sup with 0 neighbours exited with reason: {'Elixir-CompileError','__exception__',<<"/Users/rsslldnphy/Code/chipchat/src/controller/chat_controller.ex">>,4,<<"function get/2 undefined">>} in elixir_parser:yecctoken_end_location/1 line 128 in gen_server:terminate/6 line 744
+2013-10-07 21:05:31.080 [error] <0.251.0> gen_server boss_db_mock_sup terminated with reason: {'Elixir-CompileError','__exception__',<<"/Users/rsslldnphy/Code/chipchat/src/controller/chat_controller.ex">>,4,<<"function get/2 undefined">>} in elixir_parser:yecctoken_end_location/1 line 128
+2013-10-07 21:05:31.081 [error] <0.251.0> CRASH REPORT Process <0.251.0> with 0 neighbours exited with reason: {'Elixir-CompileError','__exception__',<<"/Users/rsslldnphy/Code/chipchat/src/controller/chat_controller.ex">>,4,<<"function get/2 undefined">>} in elixir_parser:yecctoken_end_location/1 line 128 in gen_server:terminate/6 line 744
+2013-10-07 21:05:31.081 [error] <0.290.0> gen_server boss_mq_sup terminated with reason: {'Elixir-CompileError','__exception__',<<"/Users/rsslldnphy/Code/chipchat/src/controller/chat_controller.ex">>,4,<<"function get/2 undefined">>} in elixir_parser:yecctoken_end_location/1 line 128
+2013-10-07 21:05:31.082 [error] <0.269.0> Supervisor poolboy_sup had child boss_session_controller started with boss_session_controller:start_link([{size,20},{max_overflow,40},{adapter,boss_session_adapter_mock},{session_exp_time,525600},{session_key,...}]) at undefined exit with reason shutdown in context shutdown_error
+2013-10-07 21:05:31.082 [error] <0.290.0> CRASH REPORT Process <0.290.0> with 0 neighbours exited with reason: {'Elixir-CompileError','__exception__',<<"/Users/rsslldnphy/Code/chipchat/src/controller/chat_controller.ex">>,4,<<"function get/2 undefined">>} in elixir_parser:yecctoken_end_location/1 line 128 in gen_server:terminate/6 line 744
+2013-10-07 21:05:31.083 [info] <0.7.0> Application elixir started on node 'chipchat@Russells-MacBook-Pro-2'
+2013-10-07 21:05:31.083 [info] <0.324.0> Starting Boss in development mode....
+
+2013-10-07 21:05:31.083 [info] <0.324.0> Starting master services on 'chipchat@Russells-MacBook-Pro-2'
+
+2013-10-07 21:05:31.083 [info] <0.324.0> SSL:[]
+
+2013-10-07 21:05:31.083 [info] <0.392.0> Loading routes from "/Users/rsslldnphy/Code/chipchat/priv/chipchat.routes" ....
+2013-10-07 21:05:31.084 [info] <0.7.0> Application elixir exited with reason: stopped
+2013-10-07 21:05:31.084 [error] <0.324.0> gen_server boss_web terminated with reason: {'Elixir-CompileError','__exception__',<<"/Users/rsslldnphy/Code/chipchat/src/controller/chat_controller.ex">>,4,<<"function get/2 undefined">>} in elixir_parser:yecctoken_end_location/1 line 128
+2013-10-07 21:06:16.127 [info] <0.7.0> Application lager started on node 'chipchat@Russells-MacBook-Pro-2'
+2013-10-07 21:06:16.134 [info] <0.7.0> Application elixir started on node 'chipchat@Russells-MacBook-Pro-2'
+2013-10-07 21:06:18.131 [info] <0.66.0> Starting Boss in development mode....
+
+2013-10-07 21:06:18.131 [info] <0.66.0> Starting master services on 'chipchat@Russells-MacBook-Pro-2'
+
+2013-10-07 21:06:18.131 [info] <0.7.0> Application tinymq started on node 'chipchat@Russells-MacBook-Pro-2'
+2013-10-07 21:06:18.131 [info] <0.66.0> SSL:[]
+
+2013-10-07 21:06:18.132 [info] <0.7.0> Application boss started on node 'chipchat@Russells-MacBook-Pro-2'
+2013-10-07 21:06:18.132 [info] <0.156.0> Loading routes from "/Users/rsslldnphy/Code/chipchat/priv/chipchat.routes" ....
+2013-10-07 21:06:18.135 [info] <0.7.0> Application elixir exited with reason: stopped
+2013-10-07 21:06:18.138 [error] <0.66.0> gen_server boss_web terminated with reason: {'Elixir-RuntimeError','__exception__',<<"expected module :index to be loaded and defined">>} in 'Elixir-Kernel':raise/1 line 2787
+2013-10-07 21:06:20.139 [error] <0.66.0> CRASH REPORT Process boss_web with 0 neighbours exited with reason: {'Elixir-RuntimeError','__exception__',<<"expected module :index to be loaded and defined">>} in 'Elixir-Kernel':raise/1 line 2787 in gen_server:terminate/6 line 744
+2013-10-07 21:06:20.146 [error] <0.65.0> Supervisor boss_sup had child boss_web_controller started with boss_web_controller:start_link([{ip,"0.0.0.0"},{port,8001}]) at <0.66.0> exit with reason {'Elixir-RuntimeError','__exception__',<<"expected module :index to be loaded and defined">>} in 'Elixir-Kernel':raise/1 line 2787 in context child_terminated
+2013-10-07 21:06:20.147 [error] <0.137.0> gen_server boss_service_sup terminated with reason: {'Elixir-RuntimeError','__exception__',<<"expected module :index to be loaded and defined">>} in 'Elixir-Kernel':raise/1 line 2787
+2013-10-07 21:06:20.147 [error] <0.137.0> CRASH REPORT Process <0.137.0> with 0 neighbours exited with reason: {'Elixir-RuntimeError','__exception__',<<"expected module :index to be loaded and defined">>} in 'Elixir-Kernel':raise/1 line 2787 in gen_server:terminate/6 line 744
+2013-10-07 21:06:20.148 [error] <0.100.0> gen_server boss_session_sup terminated with reason: {'Elixir-RuntimeError','__exception__',<<"expected module :index to be loaded and defined">>} in 'Elixir-Kernel':raise/1 line 2787
+2013-10-07 21:06:20.149 [error] <0.158.0> gen_server <0.158.0> terminated with reason: {'Elixir-RuntimeError','__exception__',<<"expected module :index to be loaded and defined">>} in 'Elixir-Kernel':raise/1 line 2787
+2013-10-07 21:06:20.149 [error] <0.100.0> CRASH REPORT Process boss_session_sup with 0 neighbours exited with reason: {'Elixir-RuntimeError','__exception__',<<"expected module :index to be loaded and defined">>} in 'Elixir-Kernel':raise/1 line 2787 in gen_server:terminate/6 line 744
+2013-10-07 21:06:20.150 [error] <0.158.0> CRASH REPORT Process <0.158.0> with 0 neighbours exited with reason: {'Elixir-RuntimeError','__exception__',<<"expected module :index to be loaded and defined">>} in 'Elixir-Kernel':raise/1 line 2787 in gen_server:terminate/6 line 744
+2013-10-07 21:06:20.150 [error] <0.155.0> gen_server <0.155.0> terminated with reason: {'Elixir-RuntimeError','__exception__',<<"expected module :index to be loaded and defined">>} in 'Elixir-Kernel':raise/1 line 2787
+2013-10-07 21:06:20.151 [error] <0.155.0> CRASH REPORT Process <0.155.0> with 0 neighbours exited with reason: {'Elixir-RuntimeError','__exception__',<<"expected module :index to be loaded and defined">>} in 'Elixir-Kernel':raise/1 line 2787 in gen_server:terminate/6 line 744
+2013-10-07 21:06:20.152 [error] <0.90.0> gen_server boss_db_sup terminated with reason: {'Elixir-RuntimeError','__exception__',<<"expected module :index to be loaded and defined">>} in 'Elixir-Kernel':raise/1 line 2787
+2013-10-07 21:06:20.152 [error] <0.131.0> gen_server boss_news_sup terminated with reason: {'Elixir-RuntimeError','__exception__',<<"expected module :index to be loaded and defined">>} in 'Elixir-Kernel':raise/1 line 2787
+2013-10-07 21:06:20.153 [error] <0.90.0> CRASH REPORT Process boss_db_sup with 0 neighbours exited with reason: {'Elixir-RuntimeError','__exception__',<<"expected module :index to be loaded and defined">>} in 'Elixir-Kernel':raise/1 line 2787 in gen_server:terminate/6 line 744
+2013-10-07 21:06:20.153 [error] <0.88.0> gen_server boss_db_mock_sup terminated with reason: {'Elixir-RuntimeError','__exception__',<<"expected module :index to be loaded and defined">>} in 'Elixir-Kernel':raise/1 line 2787
+2013-10-07 21:06:20.154 [error] <0.131.0> CRASH REPORT Process <0.131.0> with 0 neighbours exited with reason: {'Elixir-RuntimeError','__exception__',<<"expected module :index to be loaded and defined">>} in 'Elixir-Kernel':raise/1 line 2787 in gen_server:terminate/6 line 744
+2013-10-07 21:06:20.154 [error] <0.123.0> gen_server boss_mq_sup terminated with reason: {'Elixir-RuntimeError','__exception__',<<"expected module :index to be loaded and defined">>} in 'Elixir-Kernel':raise/1 line 2787
+2013-10-07 21:06:20.155 [error] <0.98.0> gen_server boss_session_mock_sup terminated with reason: {'Elixir-RuntimeError','__exception__',<<"expected module :index to be loaded and defined">>} in 'Elixir-Kernel':raise/1 line 2787
+2013-10-07 21:06:20.155 [error] <0.88.0> CRASH REPORT Process <0.88.0> with 0 neighbours exited with reason: {'Elixir-RuntimeError','__exception__',<<"expected module :index to be loaded and defined">>} in 'Elixir-Kernel':raise/1 line 2787 in gen_server:terminate/6 line 744
+2013-10-07 21:06:20.156 [error] <0.123.0> CRASH REPORT Process <0.123.0> with 0 neighbours exited with reason: {'Elixir-RuntimeError','__exception__',<<"expected module :index to be loaded and defined">>} in 'Elixir-Kernel':raise/1 line 2787 in gen_server:terminate/6 line 744
+2013-10-07 21:06:20.156 [error] <0.98.0> CRASH REPORT Process <0.98.0> with 0 neighbours exited with reason: {'Elixir-RuntimeError','__exception__',<<"expected module :index to be loaded and defined">>} in 'Elixir-Kernel':raise/1 line 2787 in gen_server:terminate/6 line 744
+2013-10-07 21:06:20.157 [error] <0.133.0> gen_server boss_mail_sup terminated with reason: {'Elixir-RuntimeError','__exception__',<<"expected module :index to be loaded and defined">>} in 'Elixir-Kernel':raise/1 line 2787
+2013-10-07 21:06:20.158 [error] <0.133.0> CRASH REPORT Process boss_mail_sup with 0 neighbours exited with reason: {'Elixir-RuntimeError','__exception__',<<"expected module :index to be loaded and defined">>} in 'Elixir-Kernel':raise/1 line 2787 in gen_server:terminate/6 line 744
+2013-10-07 21:06:20.159 [error] <0.102.0> Supervisor poolboy_sup had child boss_session_controller started with boss_session_controller:start_link([{size,20},{max_overflow,40},{adapter,boss_session_adapter_mock},{session_exp_time,525600},{session_key,...}]) at undefined exit with reason shutdown in context shutdown_error
+2013-10-07 21:06:20.159 [info] <0.7.0> Application elixir started on node 'chipchat@Russells-MacBook-Pro-2'
+2013-10-07 21:06:20.159 [info] <0.163.0> Starting Boss in development mode....
+
+2013-10-07 21:06:20.159 [info] <0.163.0> Starting master services on 'chipchat@Russells-MacBook-Pro-2'
+
+2013-10-07 21:06:20.160 [info] <0.163.0> SSL:[]
+
+2013-10-07 21:06:20.160 [info] <0.235.0> Loading routes from "/Users/rsslldnphy/Code/chipchat/priv/chipchat.routes" ....
+2013-10-07 21:06:20.160 [info] <0.7.0> Application elixir exited with reason: stopped
+2013-10-07 21:06:20.161 [error] <0.163.0> gen_server boss_web terminated with reason: {'Elixir-RuntimeError','__exception__',<<"expected module :index to be loaded and defined">>} in 'Elixir-Kernel':raise/1 line 2787
+2013-10-07 21:06:22.162 [error] <0.163.0> CRASH REPORT Process boss_web with 0 neighbours exited with reason: {'Elixir-RuntimeError','__exception__',<<"expected module :index to be loaded and defined">>} in 'Elixir-Kernel':raise/1 line 2787 in gen_server:terminate/6 line 744
+2013-10-07 21:06:22.170 [error] <0.65.0> Supervisor boss_sup had child boss_web_controller started with boss_web_controller:start_link([{ip,"0.0.0.0"},{port,8001}]) at <0.163.0> exit with reason {'Elixir-RuntimeError','__exception__',<<"expected module :index to be loaded and defined">>} in 'Elixir-Kernel':raise/1 line 2787 in context child_terminated
+2013-10-07 21:06:22.171 [error] <0.170.0> gen_server boss_db_mock_sup terminated with reason: {'Elixir-RuntimeError','__exception__',<<"expected module :index to be loaded and defined">>} in 'Elixir-Kernel':raise/1 line 2787
+2013-10-07 21:06:22.171 [error] <0.237.0> gen_server <0.237.0> terminated with reason: {'Elixir-RuntimeError','__exception__',<<"expected module :index to be loaded and defined">>} in 'Elixir-Kernel':raise/1 line 2787
+2013-10-07 21:06:22.172 [error] <0.237.0> CRASH REPORT Process <0.237.0> with 0 neighbours exited with reason: {'Elixir-RuntimeError','__exception__',<<"expected module :index to be loaded and defined">>} in 'Elixir-Kernel':raise/1 line 2787 in gen_server:terminate/6 line 744
+2013-10-07 21:06:22.173 [error] <0.170.0> CRASH REPORT Process <0.170.0> with 0 neighbours exited with reason: {'Elixir-RuntimeError','__exception__',<<"expected module :index to be loaded and defined">>} in 'Elixir-Kernel':raise/1 line 2787 in gen_server:terminate/6 line 744
+2013-10-07 21:06:22.173 [error] <0.216.0> gen_server boss_service_sup terminated with reason: {'Elixir-RuntimeError','__exception__',<<"expected module :index to be loaded and defined">>} in 'Elixir-Kernel':raise/1 line 2787
+2013-10-07 21:06:22.174 [error] <0.234.0> gen_server <0.234.0> terminated with reason: {'Elixir-RuntimeError','__exception__',<<"expected module :index to be loaded and defined">>} in 'Elixir-Kernel':raise/1 line 2787
+2013-10-07 21:06:22.175 [error] <0.234.0> CRASH REPORT Process <0.234.0> with 0 neighbours exited with reason: {'Elixir-RuntimeError','__exception__',<<"expected module :index to be loaded and defined">>} in 'Elixir-Kernel':raise/1 line 2787 in gen_server:terminate/6 line 744
+2013-10-07 21:06:22.175 [error] <0.216.0> CRASH REPORT Process <0.216.0> with 0 neighbours exited with reason: {'Elixir-RuntimeError','__exception__',<<"expected module :index to be loaded and defined">>} in 'Elixir-Kernel':raise/1 line 2787 in gen_server:terminate/6 line 744
+2013-10-07 21:06:22.176 [error] <0.218.0> CRASH REPORT Process <0.218.0> with 0 neighbours exited with reason: {{{'Elixir-RuntimeError','__exception__',<<"expected module :index to be loaded and defined">>},[{'Elixir-Kernel',raise,1,[{file,"/Users/rsslldnphy/Code/ChicagoBoss-0.8.7/deps/elixir/lib/elixir/lib/kernel.ex"},{line,2787}]},{'Elixir-Kernel','MACRO-access',3,[{file,"/Users/rsslldnphy/Code/ChicagoBoss-0.8.7/deps/elixir/lib/elixir/lib/kernel.ex"},{line,2963}]},{'Elixir-Kernel',access,2,[{file,<<"/Users/rsslldnphy/Code/chipchat/src/controller/chat_controller.ex">>},{line,4}]}]},{gen_server,call,...}} in gen_server:call/2 line 180
+2013-10-07 21:06:22.177 [error] <0.214.0> gen_server boss_mail_sup terminated with reason: {'Elixir-RuntimeError','__exception__',<<"expected module :index to be loaded and defined">>} in 'Elixir-Kernel':raise/1 line 2787
+2013-10-07 21:06:22.178 [error] <0.214.0> CRASH REPORT Process boss_mail_sup with 0 neighbours exited with reason: {'Elixir-RuntimeError','__exception__',<<"expected module :index to be loaded and defined">>} in 'Elixir-Kernel':raise/1 line 2787 in gen_server:terminate/6 line 744
+2013-10-07 21:06:22.178 [error] <0.172.0> gen_server boss_db_sup terminated with reason: {'Elixir-RuntimeError','__exception__',<<"expected module :index to be loaded and defined">>} in 'Elixir-Kernel':raise/1 line 2787
+2013-10-07 21:06:22.180 [error] <0.172.0> CRASH REPORT Process boss_db_sup with 0 neighbours exited with reason: {'Elixir-RuntimeError','__exception__',<<"expected module :index to be loaded and defined">>} in 'Elixir-Kernel':raise/1 line 2787 in gen_server:terminate/6 line 744
+2013-10-07 21:06:22.180 [error] <0.212.0> gen_server boss_news_sup terminated with reason: {'Elixir-RuntimeError','__exception__',<<"expected module :index to be loaded and defined">>} in 'Elixir-Kernel':raise/1 line 2787
+2013-10-07 21:06:22.181 [error] <0.212.0> CRASH REPORT Process <0.212.0> with 0 neighbours exited with reason: {'Elixir-RuntimeError','__exception__',<<"expected module :index to be loaded and defined">>} in 'Elixir-Kernel':raise/1 line 2787 in gen_server:terminate/6 line 744
+2013-10-07 21:06:22.182 [error] <0.210.0> gen_server boss_mq_sup terminated with reason: {'Elixir-RuntimeError','__exception__',<<"expected module :index to be loaded and defined">>} in 'Elixir-Kernel':raise/1 line 2787
+2013-10-07 21:06:22.182 [error] <0.185.0> gen_server boss_session_mock_sup terminated with reason: {'Elixir-RuntimeError','__exception__',<<"expected module :index to be loaded and defined">>} in 'Elixir-Kernel':raise/1 line 2787
+2013-10-07 21:06:22.182 [error] <0.210.0> CRASH REPORT Process <0.210.0> with 0 neighbours exited with reason: {'Elixir-RuntimeError','__exception__',<<"expected module :index to be loaded and defined">>} in 'Elixir-Kernel':raise/1 line 2787 in gen_server:terminate/6 line 744
+2013-10-07 21:06:22.183 [error] <0.185.0> CRASH REPORT Process <0.185.0> with 0 neighbours exited with reason: {'Elixir-RuntimeError','__exception__',<<"expected module :index to be loaded and defined">>} in 'Elixir-Kernel':raise/1 line 2787 in gen_server:terminate/6 line 744
+2013-10-07 21:06:22.183 [error] <0.187.0> gen_server boss_session_sup terminated with reason: {'Elixir-RuntimeError','__exception__',<<"expected module :index to be loaded and defined">>} in 'Elixir-Kernel':raise/1 line 2787
+2013-10-07 21:06:22.184 [error] <0.189.0> Supervisor poolboy_sup had child boss_session_controller started with boss_session_controller:start_link([{size,20},{max_overflow,40},{adapter,boss_session_adapter_mock},{session_exp_time,525600},{session_key,...}]) at undefined exit with reason shutdown in context shutdown_error
+2013-10-07 21:06:22.184 [error] <0.187.0> CRASH REPORT Process boss_session_sup with 0 neighbours exited with reason: {'Elixir-RuntimeError','__exception__',<<"expected module :index to be loaded and defined">>} in 'Elixir-Kernel':raise/1 line 2787 in gen_server:terminate/6 line 744
+2013-10-07 21:06:22.185 [info] <0.7.0> Application elixir started on node 'chipchat@Russells-MacBook-Pro-2'
+2013-10-07 21:06:22.185 [info] <0.244.0> Starting Boss in development mode....
+
+2013-10-07 21:06:22.185 [info] <0.244.0> Starting master services on 'chipchat@Russells-MacBook-Pro-2'
+
+2013-10-07 21:06:22.186 [info] <0.244.0> SSL:[]
+
+2013-10-07 21:06:22.186 [info] <0.316.0> Loading routes from "/Users/rsslldnphy/Code/chipchat/priv/chipchat.routes" ....
+2013-10-07 21:06:22.186 [info] <0.7.0> Application elixir exited with reason: stopped
+2013-10-07 21:06:22.187 [error] <0.244.0> gen_server boss_web terminated with reason: {'Elixir-RuntimeError','__exception__',<<"expected module :index to be loaded and defined">>} in 'Elixir-Kernel':raise/1 line 2787
+2013-10-07 21:06:24.188 [error] <0.244.0> CRASH REPORT Process boss_web with 0 neighbours exited with reason: {'Elixir-RuntimeError','__exception__',<<"expected module :index to be loaded and defined">>} in 'Elixir-Kernel':raise/1 line 2787 in gen_server:terminate/6 line 744
+2013-10-07 21:06:24.196 [error] <0.65.0> Supervisor boss_sup had child boss_web_controller started with boss_web_controller:start_link([{ip,"0.0.0.0"},{port,8001}]) at <0.244.0> exit with reason {'Elixir-RuntimeError','__exception__',<<"expected module :index to be loaded and defined">>} in 'Elixir-Kernel':raise/1 line 2787 in context child_terminated
+2013-10-07 21:06:24.196 [error] <0.297.0> gen_server boss_service_sup terminated with reason: {'Elixir-RuntimeError','__exception__',<<"expected module :index to be loaded and defined">>} in 'Elixir-Kernel':raise/1 line 2787
+2013-10-07 21:06:24.197 [error] <0.297.0> CRASH REPORT Process <0.297.0> with 0 neighbours exited with reason: {'Elixir-RuntimeError','__exception__',<<"expected module :index to be loaded and defined">>} in 'Elixir-Kernel':raise/1 line 2787 in gen_server:terminate/6 line 744
+2013-10-07 21:06:24.198 [error] <0.219.0> CRASH REPORT Process <0.219.0> with 0 neighbours exited with reason: {{{'Elixir-RuntimeError','__exception__',<<"expected module :index to be loaded and defined">>},[{'Elixir-Kernel',raise,1,[{file,"/Users/rsslldnphy/Code/ChicagoBoss-0.8.7/deps/elixir/lib/elixir/lib/kernel.ex"},{line,2787}]},{'Elixir-Kernel','MACRO-access',3,[{file,"/Users/rsslldnphy/Code/ChicagoBoss-0.8.7/deps/elixir/lib/elixir/lib/kernel.ex"},{line,2963}]},{'Elixir-Kernel',access,2,[{file,<<"/Users/rsslldnphy/Code/chipchat/src/controller/chat_controller.ex">>},{line,4}]}]},{gen_server,call,...}} in gen_server:call/2 line 180
+2013-10-07 21:06:24.198 [error] <0.251.0> gen_server boss_db_mock_sup terminated with reason: {'Elixir-RuntimeError','__exception__',<<"expected module :index to be loaded and defined">>} in 'Elixir-Kernel':raise/1 line 2787
+2013-10-07 21:06:24.199 [error] <0.253.0> gen_server boss_db_sup terminated with reason: {'Elixir-RuntimeError','__exception__',<<"expected module :index to be loaded and defined">>} in 'Elixir-Kernel':raise/1 line 2787
+2013-10-07 21:06:24.200 [error] <0.251.0> CRASH REPORT Process <0.251.0> with 0 neighbours exited with reason: {'Elixir-RuntimeError','__exception__',<<"expected module :index to be loaded and defined">>} in 'Elixir-Kernel':raise/1 line 2787 in gen_server:terminate/6 line 744
+2013-10-07 21:06:24.200 [error] <0.253.0> CRASH REPORT Process boss_db_sup with 0 neighbours exited with reason: {'Elixir-RuntimeError','__exception__',<<"expected module :index to be loaded and defined">>} in 'Elixir-Kernel':raise/1 line 2787 in gen_server:terminate/6 line 744
+2013-10-07 21:06:24.201 [error] <0.263.0> gen_server boss_session_sup terminated with reason: {'Elixir-RuntimeError','__exception__',<<"expected module :index to be loaded and defined">>} in 'Elixir-Kernel':raise/1 line 2787
+2013-10-07 21:06:24.202 [error] <0.263.0> CRASH REPORT Process boss_session_sup with 0 neighbours exited with reason: {'Elixir-RuntimeError','__exception__',<<"expected module :index to be loaded and defined">>} in 'Elixir-Kernel':raise/1 line 2787 in gen_server:terminate/6 line 744
+2013-10-07 21:06:24.202 [error] <0.293.0> gen_server boss_news_sup terminated with reason: {'Elixir-RuntimeError','__exception__',<<"expected module :index to be loaded and defined">>} in 'Elixir-Kernel':raise/1 line 2787
+2013-10-07 21:06:24.203 [error] <0.293.0> CRASH REPORT Process <0.293.0> with 0 neighbours exited with reason: {'Elixir-RuntimeError','__exception__',<<"expected module :index to be loaded and defined">>} in 'Elixir-Kernel':raise/1 line 2787 in gen_server:terminate/6 line 744
+2013-10-07 21:06:24.204 [error] <0.291.0> gen_server boss_mq_sup terminated with reason: {'Elixir-RuntimeError','__exception__',<<"expected module :index to be loaded and defined">>} in 'Elixir-Kernel':raise/1 line 2787
+2013-10-07 21:06:24.204 [error] <0.291.0> CRASH REPORT Process <0.291.0> with 0 neighbours exited with reason: {'Elixir-RuntimeError','__exception__',<<"expected module :index to be loaded and defined">>} in 'Elixir-Kernel':raise/1 line 2787 in gen_server:terminate/6 line 744
+2013-10-07 21:06:24.205 [error] <0.270.0> Supervisor poolboy_sup had child boss_session_controller started with boss_session_controller:start_link([{size,20},{max_overflow,40},{adapter,boss_session_adapter_mock},{session_exp_time,525600},{session_key,...}]) at undefined exit with reason shutdown in context shutdown_error
+2013-10-07 21:06:24.205 [error] <0.261.0> gen_server boss_session_mock_sup terminated with reason: {'Elixir-RuntimeError','__exception__',<<"expected module :index to be loaded and defined">>} in 'Elixir-Kernel':raise/1 line 2787
+2013-10-07 21:06:24.206 [error] <0.261.0> CRASH REPORT Process <0.261.0> with 0 neighbours exited with reason: {'Elixir-RuntimeError','__exception__',<<"expected module :index to be loaded and defined">>} in 'Elixir-Kernel':raise/1 line 2787 in gen_server:terminate/6 line 744
+2013-10-07 21:06:24.206 [error] <0.295.0> gen_server boss_mail_sup terminated with reason: {'Elixir-RuntimeError','__exception__',<<"expected module :index to be loaded and defined">>} in 'Elixir-Kernel':raise/1 line 2787
+2013-10-07 21:06:24.207 [error] <0.318.0> gen_server <0.318.0> terminated with reason: {'Elixir-RuntimeError','__exception__',<<"expected module :index to be loaded and defined">>} in 'Elixir-Kernel':raise/1 line 2787
+2013-10-07 21:06:24.207 [error] <0.315.0> gen_server <0.315.0> terminated with reason: {'Elixir-RuntimeError','__exception__',<<"expected module :index to be loaded and defined">>} in 'Elixir-Kernel':raise/1 line 2787
+2013-10-07 21:06:24.208 [error] <0.295.0> CRASH REPORT Process boss_mail_sup with 0 neighbours exited with reason: {'Elixir-RuntimeError','__exception__',<<"expected module :index to be loaded and defined">>} in 'Elixir-Kernel':raise/1 line 2787 in gen_server:terminate/6 line 744
+2013-10-07 21:06:24.208 [error] <0.318.0> CRASH REPORT Process <0.318.0> with 0 neighbours exited with reason: {'Elixir-RuntimeError','__exception__',<<"expected module :index to be loaded and defined">>} in 'Elixir-Kernel':raise/1 line 2787 in gen_server:terminate/6 line 744
+2013-10-07 21:06:24.209 [error] <0.315.0> CRASH REPORT Process <0.315.0> with 0 neighbours exited with reason: {'Elixir-RuntimeError','__exception__',<<"expected module :index to be loaded and defined">>} in 'Elixir-Kernel':raise/1 line 2787 in gen_server:terminate/6 line 744
+2013-10-07 21:06:24.209 [info] <0.7.0> Application elixir started on node 'chipchat@Russells-MacBook-Pro-2'
+2013-10-07 21:06:24.210 [info] <0.324.0> Starting Boss in development mode....
+
+2013-10-07 21:06:24.210 [info] <0.324.0> Starting master services on 'chipchat@Russells-MacBook-Pro-2'
+
+2013-10-07 21:06:24.210 [info] <0.324.0> SSL:[]
+
+2013-10-07 21:06:24.210 [info] <0.393.0> Loading routes from "/Users/rsslldnphy/Code/chipchat/priv/chipchat.routes" ....
+2013-10-07 21:06:24.211 [info] <0.7.0> Application elixir exited with reason: stopped
+2013-10-07 21:06:24.211 [error] <0.324.0> gen_server boss_web terminated with reason: {'Elixir-RuntimeError','__exception__',<<"expected module :index to be loaded and defined">>} in 'Elixir-Kernel':raise/1 line 2787
+2013-10-07 21:06:26.212 [error] <0.324.0> CRASH REPORT Process boss_web with 0 neighbours exited with reason: {'Elixir-RuntimeError','__exception__',<<"expected module :index to be loaded and defined">>} in 'Elixir-Kernel':raise/1 line 2787 in gen_server:terminate/6 line 744
+2013-10-07 21:06:26.220 [error] <0.374.0> gen_server boss_service_sup terminated with reason: {'Elixir-RuntimeError','__exception__',<<"expected module :index to be loaded and defined">>} in 'Elixir-Kernel':raise/1 line 2787
+2013-10-07 21:06:26.221 [error] <0.65.0> Supervisor boss_sup had child boss_web_controller started with boss_web_controller:start_link([{ip,"0.0.0.0"},{port,8001}]) at <0.324.0> exit with reason {'Elixir-RuntimeError','__exception__',<<"expected module :index to be loaded and defined">>} in 'Elixir-Kernel':raise/1 line 2787 in context child_terminated
+2013-10-07 21:06:26.221 [error] <0.374.0> CRASH REPORT Process <0.374.0> with 0 neighbours exited with reason: {'Elixir-RuntimeError','__exception__',<<"expected module :index to be loaded and defined">>} in 'Elixir-Kernel':raise/1 line 2787 in gen_server:terminate/6 line 744
+2013-10-07 21:06:26.222 [error] <0.331.0> gen_server boss_db_mock_sup terminated with reason: {'Elixir-RuntimeError','__exception__',<<"expected module :index to be loaded and defined">>} in 'Elixir-Kernel':raise/1 line 2787
+2013-10-07 21:06:26.222 [error] <0.333.0> gen_server boss_db_sup terminated with reason: {'Elixir-RuntimeError','__exception__',<<"expected module :index to be loaded and defined">>} in 'Elixir-Kernel':raise/1 line 2787
+2013-10-07 21:06:26.223 [error] <0.333.0> CRASH REPORT Process boss_db_sup with 0 neighbours exited with reason: {'Elixir-RuntimeError','__exception__',<<"expected module :index to be loaded and defined">>} in 'Elixir-Kernel':raise/1 line 2787 in gen_server:terminate/6 line 744
+2013-10-07 21:06:26.224 [error] <0.331.0> CRASH REPORT Process <0.331.0> with 0 neighbours exited with reason: {'Elixir-RuntimeError','__exception__',<<"expected module :index to be loaded and defined">>} in 'Elixir-Kernel':raise/1 line 2787 in gen_server:terminate/6 line 744
+2013-10-07 21:06:26.225 [error] <0.341.0> gen_server boss_session_mock_sup terminated with reason: {'Elixir-RuntimeError','__exception__',<<"expected module :index to be loaded and defined">>} in 'Elixir-Kernel':raise/1 line 2787
+2013-10-07 21:06:26.225 [error] <0.395.0> gen_server <0.395.0> terminated with reason: {'Elixir-RuntimeError','__exception__',<<"expected module :index to be loaded and defined">>} in 'Elixir-Kernel':raise/1 line 2787
+2013-10-07 21:06:26.226 [error] <0.341.0> CRASH REPORT Process <0.341.0> with 0 neighbours exited with reason: {'Elixir-RuntimeError','__exception__',<<"expected module :index to be loaded and defined">>} in 'Elixir-Kernel':raise/1 line 2787 in gen_server:terminate/6 line 744
+2013-10-07 21:06:26.227 [error] <0.395.0> CRASH REPORT Process <0.395.0> with 0 neighbours exited with reason: {'Elixir-RuntimeError','__exception__',<<"expected module :index to be loaded and defined">>} in 'Elixir-Kernel':raise/1 line 2787 in gen_server:terminate/6 line 744
+2013-10-07 21:06:26.227 [error] <0.343.0> gen_server boss_session_sup terminated with reason: {'Elixir-RuntimeError','__exception__',<<"expected module :index to be loaded and defined">>} in 'Elixir-Kernel':raise/1 line 2787
+2013-10-07 21:06:26.228 [error] <0.343.0> CRASH REPORT Process boss_session_sup with 0 neighbours exited with reason: {'Elixir-RuntimeError','__exception__',<<"expected module :index to be loaded and defined">>} in 'Elixir-Kernel':raise/1 line 2787 in gen_server:terminate/6 line 744
+2013-10-07 21:06:26.228 [error] <0.370.0> gen_server boss_news_sup terminated with reason: {'Elixir-RuntimeError','__exception__',<<"expected module :index to be loaded and defined">>} in 'Elixir-Kernel':raise/1 line 2787
+2013-10-07 21:06:26.229 [error] <0.368.0> gen_server boss_mq_sup terminated with reason: {'Elixir-RuntimeError','__exception__',<<"expected module :index to be loaded and defined">>} in 'Elixir-Kernel':raise/1 line 2787
+2013-10-07 21:06:26.230 [error] <0.372.0> gen_server boss_mail_sup terminated with reason: {'Elixir-RuntimeError','__exception__',<<"expected module :index to be loaded and defined">>} in 'Elixir-Kernel':raise/1 line 2787
+2013-10-07 21:06:26.230 [error] <0.372.0> CRASH REPORT Process boss_mail_sup with 0 neighbours exited with reason: {'Elixir-RuntimeError','__exception__',<<"expected module :index to be loaded and defined">>} in 'Elixir-Kernel':raise/1 line 2787 in gen_server:terminate/6 line 744
+2013-10-07 21:06:26.231 [error] <0.368.0> CRASH REPORT Process <0.368.0> with 0 neighbours exited with reason: {'Elixir-RuntimeError','__exception__',<<"expected module :index to be loaded and defined">>} in 'Elixir-Kernel':raise/1 line 2787 in gen_server:terminate/6 line 744
+2013-10-07 21:06:26.231 [error] <0.370.0> CRASH REPORT Process <0.370.0> with 0 neighbours exited with reason: {'Elixir-RuntimeError','__exception__',<<"expected module :index to be loaded and defined">>} in 'Elixir-Kernel':raise/1 line 2787 in gen_server:terminate/6 line 744
+2013-10-07 21:06:26.232 [error] <0.392.0> gen_server <0.392.0> terminated with reason: {'Elixir-RuntimeError','__exception__',<<"expected module :index to be loaded and defined">>} in 'Elixir-Kernel':raise/1 line 2787
+2013-10-07 21:06:26.232 [error] <0.392.0> CRASH REPORT Process <0.392.0> with 0 neighbours exited with reason: {'Elixir-RuntimeError','__exception__',<<"expected module :index to be loaded and defined">>} in 'Elixir-Kernel':raise/1 line 2787 in gen_server:terminate/6 line 744
+2013-10-07 21:06:26.233 [error] <0.347.0> Supervisor poolboy_sup had child boss_session_controller started with boss_session_controller:start_link([{size,20},{max_overflow,40},{adapter,boss_session_adapter_mock},{session_exp_time,525600},{session_key,...}]) at undefined exit with reason shutdown in context shutdown_error
+2013-10-07 21:06:26.234 [info] <0.7.0> Application elixir started on node 'chipchat@Russells-MacBook-Pro-2'
+2013-10-07 21:06:26.234 [info] <0.400.0> Starting Boss in development mode....
+
+2013-10-07 21:06:26.234 [info] <0.400.0> Starting master services on 'chipchat@Russells-MacBook-Pro-2'
+
+2013-10-07 21:06:26.234 [info] <0.400.0> SSL:[]
+
+2013-10-07 21:06:26.234 [info] <0.468.0> Loading routes from "/Users/rsslldnphy/Code/chipchat/priv/chipchat.routes" ....
+2013-10-07 21:06:26.235 [info] <0.7.0> Application elixir exited with reason: stopped
+2013-10-07 21:06:26.236 [error] <0.400.0> gen_server boss_web terminated with reason: {'Elixir-RuntimeError','__exception__',<<"expected module :index to be loaded and defined">>} in 'Elixir-Kernel':raise/1 line 2787
+2013-10-07 21:06:41.634 [info] <0.7.0> Application lager started on node 'chipchat@Russells-MacBook-Pro-2'
+2013-10-07 21:06:41.640 [info] <0.7.0> Application elixir started on node 'chipchat@Russells-MacBook-Pro-2'
+2013-10-07 21:06:43.637 [info] <0.66.0> Starting Boss in development mode....
+
+2013-10-07 21:06:43.637 [info] <0.66.0> Starting master services on 'chipchat@Russells-MacBook-Pro-2'
+
+2013-10-07 21:06:43.638 [info] <0.7.0> Application tinymq started on node 'chipchat@Russells-MacBook-Pro-2'
+2013-10-07 21:06:43.638 [info] <0.66.0> SSL:[]
+
+2013-10-07 21:06:43.639 [info] <0.7.0> Application boss started on node 'chipchat@Russells-MacBook-Pro-2'
+2013-10-07 21:06:43.639 [info] <0.156.0> Loading routes from "/Users/rsslldnphy/Code/chipchat/priv/chipchat.routes" ....
+2013-10-07 21:06:43.703 [info] <0.156.0> Loading routes from "/Users/rsslldnphy/Code/chipchat/priv/chipchat.routes" ....
+2013-10-07 21:06:43.744 [info] <0.139.0> GET /chat [chipchat] 200 40ms
+2013-10-07 21:06:45.401 [info] <0.156.0> Loading routes from "/Users/rsslldnphy/Code/chipchat/priv/chipchat.routes" ....
+2013-10-07 21:06:45.443 [info] <0.139.0> GET /chat [chipchat] 200 41ms
+2013-10-07 21:06:48.595 [info] <0.156.0> Loading routes from "/Users/rsslldnphy/Code/chipchat/priv/chipchat.routes" ....
+2013-10-07 21:06:48.639 [info] <0.139.0> GET /chat/about [chipchat] 200 44ms
+2013-10-07 21:06:51.603 [info] <0.156.0> Loading routes from "/Users/rsslldnphy/Code/chipchat/priv/chipchat.routes" ....
+2013-10-07 21:06:51.646 [info] <0.139.0> GET /chat [chipchat] 200 43ms
+2013-10-07 21:09:52.630 [info] <0.156.0> Loading routes from "/Users/rsslldnphy/Code/chipchat/priv/chipchat.routes" ....
+2013-10-07 21:09:52.670 [error] <0.139.0> {{'Elixir-CompileError','__exception__',<<"/Users/rsslldnphy/Code/chipchat/src/controller/chat_controller.ex">>,9,<<"function cat/1 undefined">>},[]}
+2013-10-07 21:09:52.671 [error] <0.139.0> GET /chat [chipchat] 500 40ms
+2013-10-07 21:10:02.998 [info] <0.156.0> Loading routes from "/Users/rsslldnphy/Code/chipchat/priv/chipchat.routes" ....
+2013-10-07 21:10:03.039 [error] <0.139.0> {{'Elixir-CompileError','__exception__',<<"/Users/rsslldnphy/Code/chipchat/src/controller/chat_controller.ex">>,9,<<"function cat/1 undefined">>},[]}
+2013-10-07 21:10:03.040 [error] <0.139.0> GET /chat [chipchat] 500 41ms
+2013-10-07 21:15:00.316 [info] <0.156.0> Loading routes from "/Users/rsslldnphy/Code/chipchat/priv/chipchat.routes" ....
+2013-10-07 21:15:00.359 [error] <0.139.0> {{'Elixir-CompileError','__exception__',<<"/Users/rsslldnphy/Code/chipchat/src/controller/chat_controller.ex">>,9,<<"function cat/1 undefined">>},[]}
+2013-10-07 21:15:00.360 [error] <0.139.0> GET /chat [chipchat] 500 43ms
+2013-10-07 21:15:01.100 [info] <0.156.0> Loading routes from "/Users/rsslldnphy/Code/chipchat/priv/chipchat.routes" ....
+2013-10-07 21:15:01.140 [error] <0.139.0> {{'Elixir-CompileError','__exception__',<<"/Users/rsslldnphy/Code/chipchat/src/controller/chat_controller.ex">>,9,<<"function cat/1 undefined">>},[]}
+2013-10-07 21:15:01.147 [error] <0.139.0> GET /chat [chipchat] 500 40ms
+2013-10-07 21:15:01.436 [info] <0.156.0> Loading routes from "/Users/rsslldnphy/Code/chipchat/priv/chipchat.routes" ....
+2013-10-07 21:15:01.476 [error] <0.139.0> {{'Elixir-CompileError','__exception__',<<"/Users/rsslldnphy/Code/chipchat/src/controller/chat_controller.ex">>,9,<<"function cat/1 undefined">>},[]}
+2013-10-07 21:15:01.482 [error] <0.139.0> GET /chat [chipchat] 500 40ms
+2013-10-07 21:15:06.779 [info] <0.156.0> Loading routes from "/Users/rsslldnphy/Code/chipchat/priv/chipchat.routes" ....
+2013-10-07 21:15:06.817 [error] <0.139.0> {{'Elixir-CompileError','__exception__',<<"/Users/rsslldnphy/Code/chipchat/src/controller/chat_controller.ex">>,9,<<"function cat/1 undefined">>},[]}
+2013-10-07 21:15:06.817 [error] <0.139.0> GET /chat [chipchat] 500 38ms
+2013-10-07 21:20:44.650 [info] <0.156.0> Loading routes from "/Users/rsslldnphy/Code/chipchat/priv/chipchat.routes" ....
+2013-10-07 21:20:44.692 [error] <0.150.0> {{'Elixir-CompileError','__exception__',<<"/Users/rsslldnphy/Code/chipchat/src/controller/chat_controller.ex">>,9,<<"function cat/1 undefined">>},[]}
+2013-10-07 21:20:44.699 [error] <0.150.0> GET /chat [chipchat] 500 43ms
+2013-10-07 21:20:53.703 [info] <0.156.0> Loading routes from "/Users/rsslldnphy/Code/chipchat/priv/chipchat.routes" ....
+2013-10-07 21:20:53.748 [info] <0.150.0> GET /chat [chipchat] 200 44ms
+2013-10-07 21:21:04.689 [info] <0.156.0> Loading routes from "/Users/rsslldnphy/Code/chipchat/priv/chipchat.routes" ....
+2013-10-07 21:21:04.754 [error] <0.150.0> GET /chat/felix [chipchat] 404 65ms
+2013-10-07 21:21:19.027 [info] <0.156.0> Loading routes from "/Users/rsslldnphy/Code/chipchat/priv/chipchat.routes" ....
+2013-10-07 21:21:19.076 [info] <0.150.0> GET /chat/index/felix [chipchat] 200 48ms
