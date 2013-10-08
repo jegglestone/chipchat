@@ -11,7 +11,7 @@ defmodule Chipchat.ChatController do
 
   get :messages, [channel, last_timestamp] do
     {ok, timestamp, ms} = :boss_mq.pull(binary_to_list(channel), binary_to_integer(last_timestamp))
-    {:json, [{:to, timestamp}, {:messages, Enum.map(ms, fn(m) -> list_to_binary(m.body) end)}]}
+    {:json, [{:timestamp, timestamp}, {:messages, Enum.map(ms, fn(m) -> m.nickname <> ": " <> m.body end)}]}
   end
 
   post :post, [channel] do
@@ -33,7 +33,7 @@ defmodule Chipchat.ChatController do
   end
 
   defp post_param name, req do
-    name |> binary_to_list |> req.post_param
+    name |> binary_to_list |> req.post_param |> list_to_binary
   end
 
 end
