@@ -1,3 +1,46 @@
+.banner {
+  height: 40px;
+  background: #72B37C;
+}
+
+.banner .brand {
+  padding: 5px 0;
+  line-height: 40px;
+  font-size: 30px;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
 .template {
   display: none;
+}
+
+.input-group-large input[type="text"] {
+  height: 40px;
+  float: left;
+  margin-right: 10px;
+  font-size: 2em;
+  width: 50%;
+  min-width: 200px;
+}
+
+.input-group-large input[type="submit"] {
+  height: 50px;
+  margin-top: 0;
+  float: left;
+  font-size: 1.5em;
+}
+
+#messages {
+  height: 200px;
+  border: 1px solid #cacaca;
+  margin: 1em 0;
+  overflow-y: scroll;
+}
+
+#messages li {
+  list-style: none;
+  padding: 10px;
+  font-size: 1.5em;
 }

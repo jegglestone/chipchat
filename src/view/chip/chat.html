@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href="//netdna.bootstrapcdn.com/bootstrap/2.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/static/css/chat.css" media="all" rel="stylesheet" />
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/2.3.1/js/bootstrap.min.js"></script>
+    <script src="/static/js/chat.js"></script>
+  </head>
+  <body>
+    <header role="banner" class="banner">
+      <div class="container">
+        <a href="/" class="brand">CHIPCHAT</a>
+      </div>
+    </header>
+    <div class="container">
+      <h1>Welcome, {{nickname}}.</h1>
+      <hr>
+
+      <ul id="messages" data-url="/chip/poll/{{nickname}}">
+        <li class="template"></li>
+      </ul>
+      <form id="new-message" action="/chip/chat" method="post">
+        <div class="input-group-large">
+          <input id="nickname" type="hidden" name="nickname" value="{{nickname}}"/>
+          <input id="text" type="text" name="text" />
+          <input type="submit" class="btn" value="Send" />
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

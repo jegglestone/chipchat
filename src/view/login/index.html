@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href="//netdna.bootstrapcdn.com/bootstrap/2.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/static/css/chat.css" media="all" rel="stylesheet" />
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/2.3.1/js/bootstrap.min.js"></script>
+    <script src="/static/js/chat.js"></script>
+  </head>
+  <body>
+    <header role="banner" class="banner">
+      <div class="container">
+        <a href="/" class="brand">CHIPCHAT</a>
+      </div>
+    </header>
+    <div class="container">
+      <h1>Hello and welcome to CHIPCHAT!</h1>
+      <h2>the chat client for people who want to talk about chips<br><small>(and other forms of potato-based snack, if you must.)</small></h2>
+
+      <hr>
+
+      <h3>Choose a nickname to get started!</h3>
+      <form id="nickname" action="/login" method="post">
+        <div class="input-group-large">
+          <input id="nickname" type="text" name="nickname" />
+          <input type="submit" class="btn" value="Starting chatting!" />
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
